@@ -1,0 +1,241 @@
+=====COLECTION====
+
+-Class tạo ra obj.
+-Obj có 1 tên gọi => biến obj.
+
+
+ --- Khai bao mảng.
+
+ int[] arr1 = new int[10];
+int[] arr2 = new int[3] { 5, 10, 15 };
+   - vừa khai báo vừa gán value cho các biến.
+
+int[] arr3 = { 1, 2, 3, 4 };
+	- giống cách vừa khai báo vừa gán value nhưng k có new.
+ -
+
+
+mảng là kĩ thuật khai báo nhiều biến, cùng lúc, cùng kiểu,
+	để phân biệt từng biến trong 1 mảng dùng index của giá trị đó trong mảng 
+				index từ 0 >
+
+Duyệt mảng thì lấy index của mảng trên vòng lập for.
+	
+in từng phần tử trong mảng thì chỉ cần lấy tên mảng và index vd: arr[0];
+
+muốn in nhiều thì sử dụng for.
+
+
+ 		=>  foreach (var item in arr3)  Console.Write(item);
+			- cú pháp foreach trong C# (in là trong mảng ).
+
+ 	-Khi sử dụng mảng không for i or forearch k đc in hết mảng nếu mảng chưa full.
+
+----
+
+==== (II)  .
+
+ 	internal class Cabinet<T> where T : class
+{
+    private T[] _arr = new T[30];
+    private int _count = 0;
+}
+
+linh hoạt kiểu dữ liệu đưa vào với kỹ thuật generic
+
+
+
+=> List (C#) <> ArrayList (java).
+
+	-List sử dụng foreach kích thước của nó có thể co giản theo số lượng giá trị được thêm vào.(conllection framework).
+  	List<Student> studentsList = new (); => khai báo kiểu đơn giản.
+
+
+
+
+(
+	- danh sách toàn bọ sv
+	- danh sách sinh viên bình dương.
+	-danh sách sinh vien binh dương diem >= 8.
+	-danh sách sv có diem tb < 5.
+ 	- danh sach sv tang dan theo dtb.
+
+	1 danh sach sv.
+	2 danh sách sv se
+	3 danh sach nganh GD
+	4 danh sách co diem tb >= 8
+	5 danh sách có điem < 5.
+
+) => DEPENDENCY INJECTION.
+	- có danh sách chờ where.
+	+(DI). 
+		- interface.
+				#
+		- delegate.(ủy quyền, ủy nhiệm, ủy phát, giao phó,..) => câu chuyện của it nhất 2 bên. 
+				#  Tư duy trừu tượng. (hình dung và map với ngoài đời).
+
+					lv1: truyền value vào 1 hàm.(parameter).
+						vd: void F(int n); => n là paramater truyền vào.
+	
+					lv2: lần đầu tiên "datatype" là tham số đưa vào hàm.
+						=> Genaric.
+						public class X<T>   => T là datatype.
+						{
+							static void M(T x){...} => có 2 tham số , T là datatype, x là tham số thuộc T
+						}
+
+					lv3: Hàm cũng xem là value truyền hàm vào 1 hàm ( hàm truyền vào hàm).
+						
+
+
+
+Vd: Đào, Phở và Piano.
+		+ Đào => datatype.
+		+ Phở => value.
+		+ Piano => Biến.
+	
+	I) Thông tin và phân loại.
+- con người nhìn thế giới qua việc phân loại và đặt tên.
+	1 2 100 50 60 3.14 2.6 9.8 10% đúng/sai yêu/ghet   => value đơn giản.
+	{LNT,2003,sv FPT}, {...,...,...,....} ,.. => value phức tạp.
+	
+   II) datatype:
+		- là tên gọi cho 1 nhóm data đồng dạng, cùng loại.
+		
+vd: int {1,2,3,...}
+vd: Player{M10,cr7,...}
+
+III) value là những giá trị đơn, giá trị phức tạp.
+
+IV) Biến:
+
+		- gọi riêng từng cái để thao tác bằng cách đặt tên riêng.
+vd: x=1 , y=2 , double PI=3.14, .... => tên biến.
+
+Singer MTP = {NTT,1994,LT,CTCHT,CTCTl};
+      			= new () {NTT,1994,LT,CTCHT,CTCTl};
+
+Biển Đông, Biển đỏ => tên gọi riêng của tên chung là biển.
+
+
+===NOTE: xem hàm là 1 value => hàm là 1 thứ quanh ta.
+
+
+
+
+
+datatype --> value --> variable.
+
+
+ 		
+
+=======> khai báo delegate => khai báo 1 nhóm hàm, tên chunh cho nhóm hàm tương việc tạo mới 1 class == interface, classs.
+
+
+
+
+ internal class Program
+ {
+     delegate void NoInputNoOutput(); => đây là tên class => phía sdk chính là public class NoInputNoOutput(){..} => bên trong 
+     static void Main(string[] args) 						là các đặc tính/ backing_field dùng để lưu trữ tên các hàm 
+     {....}
+}
+
+
+=> gọi NoInputNoOutput a= ? ;
+ ? là hàm.
+
+ NoInputNoOutput a = SayHello; => gọi 
+=> a là nickname  là tên gọi khác của hàm SayHello => 1 hàm có 2 tên(tên góc(SayHello) và tên mới(f));
+=> f là con trỏ trỏ đến hàm => SAI. +> f có thể trỏ nhiều hàm.
+
+
+ NoInputNoOutput a = SayHello;
+ a();  => truyển khai.
+
+	+ a  có thể từ bỏ hàm củ và gán với hàm mới.
+vd:
+	NoInputNoOutput a = SayHello;
+	a();
+	a = SayHelloNvh;
+	a();
+*   a.Invoke(); => cách gọi thứ 2.
+	
+- a là 1 obj => sdk tự tạo 1 methor .Invoke() để gọi lại hàm được gán == ToString();
+
+	+ a có thể Trỏ Nhiều Hàm;
+
+ a += PrintInterger; sử dung toán tử += để gán thêm hàm vào a .
+
+
+
+==============
+ a = delegate ()
+ {
+     Console.WriteLine("du ai di nguoc ve suoi");
+     Console.WriteLine("nho ngay gio to 10/3");
+ };
+ a();
+
+(anonimuos funtion) bỏ tên hàm và thay bằng delegate và gọi qua tên biến.
+
+
+
+
+
++++++ LAMBDA EXPRESSION - viết rút gọn hàm vo danh.   => Sử lý data.
+
+delegate void NoInNoOut();  => khai báo delegate.
+NoInNoOut a;     			=> tạo biến delegate.
+ a = () => 					=> truyển khai biểu thức lambda bằng biến a (biến delegate).
+ {
+     Console.WriteLine("du ai...");
+     Console.WriteLine("nho ngay");
+ };
+ a();
+
+or
+a = () => Console.WriteLine("du ai...");
+
+
+tương tự với EXpresion body nhưng EXpresion body còn tên hàm còn Lambda k còn tên hàm.
+	 lambda là anonimuos nhưng anonimuos chưa là lambda.
+
+
+Microsoft chuẩn hóa cách đặt tên 
+
+
+ 4+ delegate có sẵn cho Microsoft
++ Action   => k vao k ra
++ Action<>  => có vào k ra
++ Func<>   => 
++Predicate
+
+
+(
+NoInputNoOutput a = () => Console.WriteLine("hello");
+a();
+a = SayHello;
+a();
+Action b = () => Console.WriteLine("hello");
+b();
+b = SayHello;
+b();
+) => sử dụng Action delegate của Microsoft.
+		2 delegate không thể gán cho nhàu vì khác class.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

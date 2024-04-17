@@ -1,0 +1,14 @@
+D:\FPT\PRN_\Project\05\TowInputOneOutPut\bin\Debug\net8.0\TowInputsOneOutPut.exe
+D:\FPT\PRN_\Project\05\TowInputOneOutPut\bin\Debug\net8.0\TowInputsOneOutPut.deps.json
+D:\FPT\PRN_\Project\05\TowInputOneOutPut\bin\Debug\net8.0\TowInputsOneOutPut.runtimeconfig.json
+D:\FPT\PRN_\Project\05\TowInputOneOutPut\bin\Debug\net8.0\TowInputsOneOutPut.dll
+D:\FPT\PRN_\Project\05\TowInputOneOutPut\bin\Debug\net8.0\TowInputsOneOutPut.pdb
+D:\FPT\PRN_\Project\05\TowInputOneOutPut\obj\Debug\net8.0\TowInputsOneOutPut.GeneratedMSBuildEditorConfig.editorconfig
+D:\FPT\PRN_\Project\05\TowInputOneOutPut\obj\Debug\net8.0\TowInputsOneOutPut.AssemblyInfoInputs.cache
+D:\FPT\PRN_\Project\05\TowInputOneOutPut\obj\Debug\net8.0\TowInputsOneOutPut.AssemblyInfo.cs
+D:\FPT\PRN_\Project\05\TowInputOneOutPut\obj\Debug\net8.0\TowInputsOneOutPut.csproj.CoreCompileInputs.cache
+D:\FPT\PRN_\Project\05\TowInputOneOutPut\obj\Debug\net8.0\TowInputsOneOutPut.dll
+D:\FPT\PRN_\Project\05\TowInputOneOutPut\obj\Debug\net8.0\refint\TowInputsOneOutPut.dll
+D:\FPT\PRN_\Project\05\TowInputOneOutPut\obj\Debug\net8.0\TowInputsOneOutPut.pdb
+D:\FPT\PRN_\Project\05\TowInputOneOutPut\obj\Debug\net8.0\TowInputsOneOutPut.genruntimeconfig.cache
+D:\FPT\PRN_\Project\05\TowInputOneOutPut\obj\Debug\net8.0\ref\TowInputsOneOutPut.dll

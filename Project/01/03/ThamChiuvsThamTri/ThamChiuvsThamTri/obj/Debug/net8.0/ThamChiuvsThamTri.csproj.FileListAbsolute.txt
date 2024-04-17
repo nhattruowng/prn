@@ -1,0 +1,14 @@
+D:\FPT\PRN_\Project\01\03\ThamChiuvsThamTri\ThamChiuvsThamTri\bin\Debug\net8.0\ThamChiuvsThamTri.exe
+D:\FPT\PRN_\Project\01\03\ThamChiuvsThamTri\ThamChiuvsThamTri\bin\Debug\net8.0\ThamChiuvsThamTri.deps.json
+D:\FPT\PRN_\Project\01\03\ThamChiuvsThamTri\ThamChiuvsThamTri\bin\Debug\net8.0\ThamChiuvsThamTri.runtimeconfig.json
+D:\FPT\PRN_\Project\01\03\ThamChiuvsThamTri\ThamChiuvsThamTri\bin\Debug\net8.0\ThamChiuvsThamTri.dll
+D:\FPT\PRN_\Project\01\03\ThamChiuvsThamTri\ThamChiuvsThamTri\bin\Debug\net8.0\ThamChiuvsThamTri.pdb
+D:\FPT\PRN_\Project\01\03\ThamChiuvsThamTri\ThamChiuvsThamTri\obj\Debug\net8.0\ThamChiuvsThamTri.GeneratedMSBuildEditorConfig.editorconfig
+D:\FPT\PRN_\Project\01\03\ThamChiuvsThamTri\ThamChiuvsThamTri\obj\Debug\net8.0\ThamChiuvsThamTri.AssemblyInfoInputs.cache
+D:\FPT\PRN_\Project\01\03\ThamChiuvsThamTri\ThamChiuvsThamTri\obj\Debug\net8.0\ThamChiuvsThamTri.AssemblyInfo.cs
+D:\FPT\PRN_\Project\01\03\ThamChiuvsThamTri\ThamChiuvsThamTri\obj\Debug\net8.0\ThamChiuvsThamTri.csproj.CoreCompileInputs.cache
+D:\FPT\PRN_\Project\01\03\ThamChiuvsThamTri\ThamChiuvsThamTri\obj\Debug\net8.0\ThamChiuvsThamTri.dll
+D:\FPT\PRN_\Project\01\03\ThamChiuvsThamTri\ThamChiuvsThamTri\obj\Debug\net8.0\refint\ThamChiuvsThamTri.dll
+D:\FPT\PRN_\Project\01\03\ThamChiuvsThamTri\ThamChiuvsThamTri\obj\Debug\net8.0\ThamChiuvsThamTri.pdb
+D:\FPT\PRN_\Project\01\03\ThamChiuvsThamTri\ThamChiuvsThamTri\obj\Debug\net8.0\ThamChiuvsThamTri.genruntimeconfig.cache
+D:\FPT\PRN_\Project\01\03\ThamChiuvsThamTri\ThamChiuvsThamTri\obj\Debug\net8.0\ref\ThamChiuvsThamTri.dll

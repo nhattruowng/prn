@@ -1,0 +1,14 @@
+D:\FPT\PRN_\Project\01\03\ThamChiuvsThamTri\PassByRef\bin\Debug\net8.0\PassByRef.exe
+D:\FPT\PRN_\Project\01\03\ThamChiuvsThamTri\PassByRef\bin\Debug\net8.0\PassByRef.deps.json
+D:\FPT\PRN_\Project\01\03\ThamChiuvsThamTri\PassByRef\bin\Debug\net8.0\PassByRef.runtimeconfig.json
+D:\FPT\PRN_\Project\01\03\ThamChiuvsThamTri\PassByRef\bin\Debug\net8.0\PassByRef.dll
+D:\FPT\PRN_\Project\01\03\ThamChiuvsThamTri\PassByRef\bin\Debug\net8.0\PassByRef.pdb
+D:\FPT\PRN_\Project\01\03\ThamChiuvsThamTri\PassByRef\obj\Debug\net8.0\PassByRef.GeneratedMSBuildEditorConfig.editorconfig
+D:\FPT\PRN_\Project\01\03\ThamChiuvsThamTri\PassByRef\obj\Debug\net8.0\PassByRef.AssemblyInfoInputs.cache
+D:\FPT\PRN_\Project\01\03\ThamChiuvsThamTri\PassByRef\obj\Debug\net8.0\PassByRef.AssemblyInfo.cs
+D:\FPT\PRN_\Project\01\03\ThamChiuvsThamTri\PassByRef\obj\Debug\net8.0\PassByRef.csproj.CoreCompileInputs.cache
+D:\FPT\PRN_\Project\01\03\ThamChiuvsThamTri\PassByRef\obj\Debug\net8.0\PassByRef.dll
+D:\FPT\PRN_\Project\01\03\ThamChiuvsThamTri\PassByRef\obj\Debug\net8.0\refint\PassByRef.dll
+D:\FPT\PRN_\Project\01\03\ThamChiuvsThamTri\PassByRef\obj\Debug\net8.0\PassByRef.pdb
+D:\FPT\PRN_\Project\01\03\ThamChiuvsThamTri\PassByRef\obj\Debug\net8.0\PassByRef.genruntimeconfig.cache
+D:\FPT\PRN_\Project\01\03\ThamChiuvsThamTri\PassByRef\obj\Debug\net8.0\ref\PassByRef.dll

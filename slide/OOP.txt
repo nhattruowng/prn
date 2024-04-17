@@ -1,0 +1,81 @@
+	-class là khuôn, template, form, phôi => bảng thiết kế để dùng clone nhân bản ra các obj, các nhóm cựu thể.
+	-OOP là phương pháp lập trình mà ta đi tìm obj 
+obj => class clone => sử lý quản lý thông tin.
+	
+	mô tả chung cho nhũng nhóm obj đặc tính obj
+	hành vi obj
+
+	hàm - method, behaviour
+	
+
++++tên biến Java theo nguyên tắc camel case notation (con lạc đà).
+	C# cũng (con lạc đà) nhưng trước có (_).
+
+
+=> OOP => tạo ra data type phức tạp lưu trức nhứng đối tượng có nhiều datatype.
+
+Studen HocSinhA = new Studen("A1", "Tung Nguyen Thanh", "thanhtung@gmail.com", 2003, 5.5);
+
+Studen dat = new Studen(id:"A2",name:"Dat Nguyen Quoc",yob:2003,gpa:8.0,email: "dat@gmail.com");
+=> kĩ thuật thêm mới named-argument
+-cho phép them lộn sộn kí tự
+
+ +Studen dang = new (id: "A3", name: "Dang Vo Quang", yob: 2004, gpa: 9.0, email: "dang@gmail.com"); => có thể cắt bớt kiểu dữ liệu khai new.
+
++ var dang1 = new Studen (id: "A3", name: "Dang Vo Quang", yob: 2004, gpa: 9.0, email: "dang@gmail.com");
+=> suy luận kiểu dự vào value (var) - type inferrent.
+
+
+
+public string Name                        		=> Name là "property"-> thuộc tính của obj => get,set gọn hơn trên oop.
+											- hậu trường vẵn sử lý với biến trên ( sử dụng backing field)
+{												kỹ thuật này gọi là => PROPERTY = keywork "prodfull"
+    get {  return _name; } 		     => _name là backing field
+    set { _name = value; }
+}
+
++public biến name thong qua Name.
+ sử dụng như mội methor khác vd như
+			 OBJ.Name;		 => lấy giá trị (get)
+			OBJ.Name = "?" ;	 =>gán giá trị (set)
+
++=> kỹ thuật viết get set kĩu này gọi là FULL PROPERTY => sd 1 biến để chứa get và set.
+		- giúp nhìn tự nhiên hơn bớt tính kĩ thuật => code tự nhiên hơn
+
+	private int _id; => là biến nhưng phải gọi chính xác là " Instance variable, attribute, state, member, backing field, back field, (field = trường, vùng ) ".
+ => dùng để lưu trữ thông tin của mỗi obj phía " hậu trường" phía sau của code sdk sử lý vì private của biến( đống gói trong oop).
+
+==> new obj mới theo  PROPERTY:
+ 	Student student = new Student(); 
+  			=> contructor defautlt là contructor tự động tạo ra từ sdk => giúp tạo 1 obj rỗng k có đầu vào tất cả các biến bên trong obj đều mang giá trị defautlt.
+
+
+==> kỹ thuật new "OBJ INITIALIZATION".
+	Student student1 = new Student() { Id=1, Name="Truong", Yob=21};
+		-gọi set ngay lúc new mới obj khác với truyền tham số vào contructor (..,...,...); => " name- argument"
+
+		
+== ToString() {...} => khi k gọi obj chỉ in ra datatype 
+
+public string Name{ get; set;} 
+		=> tối ưu hơn việc viết code => tránh nhàm chán. 
+			=> với kĩ thuật này loại bỏ backing field, Sdk tự sinh backing field.
+				==> " Auto-generated Property"
+				=> sd để tương tác database => map xuống table db thì sd " Auto-generated Property" cho dễ kiểm soát code.
+
+*Contructor: dùng để tạo 1obj và nhận data đưa vào để tạo 1 obj.
+		=> muốn tạo obj thì cần Contructor.
+		-Nếu class k có contructor thì mặc định sdk sẽ tự tạo 1 contruictor rõng với 0 tham số.
+		<=> nếu class có contructor thì sdk sẽ k tạo ra thêm bắtc cứ contructor nào cả.
+		
+ 
+====================================
+	CTRL + K + D => format code
+====================================
+
+
+
+
+
+
+

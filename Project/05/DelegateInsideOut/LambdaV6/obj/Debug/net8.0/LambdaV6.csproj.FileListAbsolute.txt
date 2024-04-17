@@ -1,0 +1,14 @@
+D:\FPT\PRN_\Project\05\DelegateInsideOut\LambdaV6\bin\Debug\net8.0\LambdaV6.exe
+D:\FPT\PRN_\Project\05\DelegateInsideOut\LambdaV6\bin\Debug\net8.0\LambdaV6.deps.json
+D:\FPT\PRN_\Project\05\DelegateInsideOut\LambdaV6\bin\Debug\net8.0\LambdaV6.runtimeconfig.json
+D:\FPT\PRN_\Project\05\DelegateInsideOut\LambdaV6\bin\Debug\net8.0\LambdaV6.dll
+D:\FPT\PRN_\Project\05\DelegateInsideOut\LambdaV6\bin\Debug\net8.0\LambdaV6.pdb
+D:\FPT\PRN_\Project\05\DelegateInsideOut\LambdaV6\obj\Debug\net8.0\LambdaV6.GeneratedMSBuildEditorConfig.editorconfig
+D:\FPT\PRN_\Project\05\DelegateInsideOut\LambdaV6\obj\Debug\net8.0\LambdaV6.AssemblyInfoInputs.cache
+D:\FPT\PRN_\Project\05\DelegateInsideOut\LambdaV6\obj\Debug\net8.0\LambdaV6.AssemblyInfo.cs
+D:\FPT\PRN_\Project\05\DelegateInsideOut\LambdaV6\obj\Debug\net8.0\LambdaV6.csproj.CoreCompileInputs.cache
+D:\FPT\PRN_\Project\05\DelegateInsideOut\LambdaV6\obj\Debug\net8.0\LambdaV6.dll
+D:\FPT\PRN_\Project\05\DelegateInsideOut\LambdaV6\obj\Debug\net8.0\refint\LambdaV6.dll
+D:\FPT\PRN_\Project\05\DelegateInsideOut\LambdaV6\obj\Debug\net8.0\LambdaV6.pdb
+D:\FPT\PRN_\Project\05\DelegateInsideOut\LambdaV6\obj\Debug\net8.0\LambdaV6.genruntimeconfig.cache
+D:\FPT\PRN_\Project\05\DelegateInsideOut\LambdaV6\obj\Debug\net8.0\ref\LambdaV6.dll

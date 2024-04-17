@@ -1,0 +1,14 @@
+D:\FPT\PRN_\Project\05\InputNoOutPut\bin\Debug\net8.0\InputNoOutPut.exe
+D:\FPT\PRN_\Project\05\InputNoOutPut\bin\Debug\net8.0\InputNoOutPut.deps.json
+D:\FPT\PRN_\Project\05\InputNoOutPut\bin\Debug\net8.0\InputNoOutPut.runtimeconfig.json
+D:\FPT\PRN_\Project\05\InputNoOutPut\bin\Debug\net8.0\InputNoOutPut.dll
+D:\FPT\PRN_\Project\05\InputNoOutPut\bin\Debug\net8.0\InputNoOutPut.pdb
+D:\FPT\PRN_\Project\05\InputNoOutPut\obj\Debug\net8.0\InputNoOutPut.GeneratedMSBuildEditorConfig.editorconfig
+D:\FPT\PRN_\Project\05\InputNoOutPut\obj\Debug\net8.0\InputNoOutPut.AssemblyInfoInputs.cache
+D:\FPT\PRN_\Project\05\InputNoOutPut\obj\Debug\net8.0\InputNoOutPut.AssemblyInfo.cs
+D:\FPT\PRN_\Project\05\InputNoOutPut\obj\Debug\net8.0\InputNoOutPut.csproj.CoreCompileInputs.cache
+D:\FPT\PRN_\Project\05\InputNoOutPut\obj\Debug\net8.0\InputNoOutPut.dll
+D:\FPT\PRN_\Project\05\InputNoOutPut\obj\Debug\net8.0\refint\InputNoOutPut.dll
+D:\FPT\PRN_\Project\05\InputNoOutPut\obj\Debug\net8.0\InputNoOutPut.pdb
+D:\FPT\PRN_\Project\05\InputNoOutPut\obj\Debug\net8.0\InputNoOutPut.genruntimeconfig.cache
+D:\FPT\PRN_\Project\05\InputNoOutPut\obj\Debug\net8.0\ref\InputNoOutPut.dll

@@ -1,0 +1,7 @@
+D:\FPT\PRN_\Project\01\Calculation\NumberCalculation\bin\Debug\NumberCalculation.exe.config
+D:\FPT\PRN_\Project\01\Calculation\NumberCalculation\bin\Debug\NumberCalculation.exe
+D:\FPT\PRN_\Project\01\Calculation\NumberCalculation\bin\Debug\NumberCalculation.pdb
+D:\FPT\PRN_\Project\01\Calculation\NumberCalculation\obj\Debug\NumberCalculation.csproj.AssemblyReference.cache
+D:\FPT\PRN_\Project\01\Calculation\NumberCalculation\obj\Debug\NumberCalculation.csproj.CoreCompileInputs.cache
+D:\FPT\PRN_\Project\01\Calculation\NumberCalculation\obj\Debug\NumberCalculation.exe
+D:\FPT\PRN_\Project\01\Calculation\NumberCalculation\obj\Debug\NumberCalculation.pdb

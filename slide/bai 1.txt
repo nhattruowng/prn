@@ -1,0 +1,105 @@
+0. sdk là gì? tại sao cần 
+(software development kit)
+công cụ dùng cho lập trình viên làm app
+-sdk là 1 bộ công cụ lập trình bản chất là 1 tập hợp các file nhị phân, đuôi .dll .exe .jar,..
+sinh ra để giúp các dev lập trình phát triển và chạy app.
+-sdk là taapj hợp các hàm, classs, thư viện,.. mà hãng làm ra cung cấp cho dev dùng để phát triển app, để chạy app.
+Java: import java.util.....;
+C#: using ...;
+=> sử dụng các class trong sdk
+- để chạy đc app code vừa viết có sd sdk ta cần các thư viện file nhị phân .dll .exe .jar ,...
+để giúp app giao tiếp với os 
+
+Nhưng món đồ giúp app chạy đc trên 1 os nào đó được gọi là runtime environment 
+
++dev cần sdk để viết code 
++ runtime để chạy code 
+
+- default khi cài 1 sdk thì có runtime .
+
+JAVA:(sdk trong java được gọi là jdk)
+jdk (java develoment kit)(8.0=1.8)
+jre(java runtime environmet) 
+C:\Program Files\Java\ jre và jdk.
+
+
+2001 Microsoft release 
+Chung sdk: version mới nhất 8.0.203 
+C#(c-sharp)
+VB.Net
+F#
+VC++.Net(mạnh nhất)
+
+khi cài sdk có 3 runtime ứng với 3 app khác nhau.
+web app, desktop, console
+
+-cài đặt .Net sdk ( đồ chơi cho dev) 
+-tải sdk trên web của microsoft như cài các app bình thường.
+-cài măc định sdk dược cài vào C:\Program Files\dotnet\sdk\
+						C:\Program Files\dotnet\shared\... chứa các runtime 
+-mặc định bộ cài sdk cung cấp cho bạn 1 tool quan trọng dùng ở chế độ dòng lệnh gọi là dotnet CLI (command line interface) => gõ bằng lệnh
+	dotnet.exe
+tool này dùng tạo project, tạo solution,biên dịch, đống gói, run app.
+gọi tool -> thư mục C:\Program Files\dotnet
+hoặc gọi ở đâu cũng được khi abb biến môi trường 
+
+
+
+dotnet build <=> mvn package
+
+- câu lệnh dung dotnet CLI để tạo mới project, build project
+(dotnet new console --framework net8.0 --use-main-program)
+
+dotnet build =. biến src code c# thành .dll .exe 
+
+dotnet run => build và run 
+
++IDE (intergrated development enviroment - môi trường phát triển tích hợp)
+
+-- viết bằng notpage cực quá => tốn thời gian và công sức  => ide 
+
+
+các công ty phần mền lớn tạo ra những phần mền hỗ trợ việc viết code trở nên thuận tiện mầ nhanh chống hơn.
+bộ công cụ này gọi là iDE.
+JAVA: intellij, eclipse, netbeans,..
+jdk: oracle
+
+C#: rider, VS studio
+VB.Net:
+F#
+VC++.Net
+
++sdk (microsoft)
+
+>vs code, brackets,atom,....
+>>code editor + sdk + plugins/extension = ide
+
++ solution & project:
+-java k có solution, tạm hiểu solution là proj rất bự chứa nhiều proj bên trong.
+
+-JAVA: làm 1 app tương dương với việc tạo mới 1proj => chia code thành các package/thư mục 
+
+C#: làm app tạo mới 1 solution
+ví dụ làm 1 game => 1 solution => giải pháp giải trí 
+	nhóm code được viết để quản lý user/ phân quyền/cheat 
+	
+	nhóm code khác lo việc quản lý đồ
+
+	nhóm code quản lý gameplay, ...
+	
+	nhóm code về kết nói cơ sở dữ liệu 
+	
+	Với java mỗi nhớm trên gọi là 1 páckage <> C# project
+	
+	=> 1 solution có nhiều proj có nhiều thư mục 
+
+  	C# gọi là namespace 
+
+	1 namespace có nhiều src code bên trong 
+	1 file crs code có thể có 1 hoặc nhiều class 
+	
+
+
+DOTPEEK DOWS 
+
+	

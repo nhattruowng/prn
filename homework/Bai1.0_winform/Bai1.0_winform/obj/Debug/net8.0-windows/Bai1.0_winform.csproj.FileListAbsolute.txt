@@ -1,0 +1,16 @@
+D:\FPT\PRN_\homework\Bai1.0_winform\Bai1.0_winform\bin\Debug\net8.0-windows\Bai1.0_winform.exe
+D:\FPT\PRN_\homework\Bai1.0_winform\Bai1.0_winform\bin\Debug\net8.0-windows\Bai1.0_winform.deps.json
+D:\FPT\PRN_\homework\Bai1.0_winform\Bai1.0_winform\bin\Debug\net8.0-windows\Bai1.0_winform.runtimeconfig.json
+D:\FPT\PRN_\homework\Bai1.0_winform\Bai1.0_winform\bin\Debug\net8.0-windows\Bai1.0_winform.dll
+D:\FPT\PRN_\homework\Bai1.0_winform\Bai1.0_winform\bin\Debug\net8.0-windows\Bai1.0_winform.pdb
+D:\FPT\PRN_\homework\Bai1.0_winform\Bai1.0_winform\obj\Debug\net8.0-windows\Bai1._0_winform.Form1.resources
+D:\FPT\PRN_\homework\Bai1.0_winform\Bai1.0_winform\obj\Debug\net8.0-windows\Bai1.0_winform.csproj.GenerateResource.cache
+D:\FPT\PRN_\homework\Bai1.0_winform\Bai1.0_winform\obj\Debug\net8.0-windows\Bai1.0_winform.GeneratedMSBuildEditorConfig.editorconfig
+D:\FPT\PRN_\homework\Bai1.0_winform\Bai1.0_winform\obj\Debug\net8.0-windows\Bai1.0_winform.AssemblyInfoInputs.cache
+D:\FPT\PRN_\homework\Bai1.0_winform\Bai1.0_winform\obj\Debug\net8.0-windows\Bai1.0_winform.AssemblyInfo.cs
+D:\FPT\PRN_\homework\Bai1.0_winform\Bai1.0_winform\obj\Debug\net8.0-windows\Bai1.0_winform.csproj.CoreCompileInputs.cache
+D:\FPT\PRN_\homework\Bai1.0_winform\Bai1.0_winform\obj\Debug\net8.0-windows\Bai1.0_winform.dll
+D:\FPT\PRN_\homework\Bai1.0_winform\Bai1.0_winform\obj\Debug\net8.0-windows\refint\Bai1.0_winform.dll
+D:\FPT\PRN_\homework\Bai1.0_winform\Bai1.0_winform\obj\Debug\net8.0-windows\Bai1.0_winform.pdb
+D:\FPT\PRN_\homework\Bai1.0_winform\Bai1.0_winform\obj\Debug\net8.0-windows\Bai1.0_winform.genruntimeconfig.cache
+D:\FPT\PRN_\homework\Bai1.0_winform\Bai1.0_winform\obj\Debug\net8.0-windows\ref\Bai1.0_winform.dll

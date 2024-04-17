@@ -1,0 +1,85 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\FPT\\PRN_\\Project\\01\\ConsoleApp1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D4AD7B3D-5ADC-454C-BA30-98D3587592CA}|..\\BmiV3\\BmiV3.csproj|d:\\fpt\\prn_\\project\\01\\bmiv3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5173E9A8-A25D-4368-B1E1-3A27F41D9837}|..\\Bmi\\Bmi.csproj|d:\\fpt\\prn_\\project\\01\\bmi\\bmicalculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08EDBC98-9E20-471E-9C0C-FBFBC7ADE75F}|..\\BMIv2\\BMIv2.csproj|d:\\fpt\\prn_\\project\\01\\bmiv2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F47B0B3C-3F9B-480B-AF1F-604CB6BF9373}|ConsoleApp1.csproj|d:\\fpt\\prn_\\project\\01\\consoleapp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F47B0B3C-3F9B-480B-AF1F-604CB6BF9373}|ConsoleApp1.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\FPT\\PRN_\\Project\\01\\BmiV3\\Program.cs",
+              "RelativeDocumentMoniker": "..\\BmiV3\\Program.cs",
+              "ToolTip": "D:\\FPT\\PRN_\\Project\\01\\BmiV3\\Program.cs",
+              "RelativeToolTip": "..\\BmiV3\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-09T09:32:46.404Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BmiCalculator.cs",
+              "DocumentMoniker": "D:\\FPT\\PRN_\\Project\\01\\Bmi\\BmiCalculator.cs",
+              "RelativeDocumentMoniker": "..\\Bmi\\BmiCalculator.cs",
+              "ToolTip": "D:\\FPT\\PRN_\\Project\\01\\Bmi\\BmiCalculator.cs",
+              "RelativeToolTip": "..\\Bmi\\BmiCalculator.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABkAAABBAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-09T08:54:20.025Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\FPT\\PRN_\\Project\\01\\BMIv2\\Program.cs",
+              "RelativeDocumentMoniker": "..\\BMIv2\\Program.cs",
+              "ToolTip": "D:\\FPT\\PRN_\\Project\\01\\BMIv2\\Program.cs",
+              "RelativeToolTip": "..\\BMIv2\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-09T08:35:57.573Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\FPT\\PRN_\\Project\\01\\ConsoleApp1\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\FPT\\PRN_\\Project\\01\\ConsoleApp1\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-09T07:49:59.021Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

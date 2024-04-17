@@ -1,0 +1,14 @@
+D:\FPT\PRN_\Project\06\BuiltlnDelegate\BuiltlnDelegate\bin\Debug\net8.0\BuiltlnDelegate.exe
+D:\FPT\PRN_\Project\06\BuiltlnDelegate\BuiltlnDelegate\bin\Debug\net8.0\BuiltlnDelegate.deps.json
+D:\FPT\PRN_\Project\06\BuiltlnDelegate\BuiltlnDelegate\bin\Debug\net8.0\BuiltlnDelegate.runtimeconfig.json
+D:\FPT\PRN_\Project\06\BuiltlnDelegate\BuiltlnDelegate\bin\Debug\net8.0\BuiltlnDelegate.dll
+D:\FPT\PRN_\Project\06\BuiltlnDelegate\BuiltlnDelegate\bin\Debug\net8.0\BuiltlnDelegate.pdb
+D:\FPT\PRN_\Project\06\BuiltlnDelegate\BuiltlnDelegate\obj\Debug\net8.0\BuiltlnDelegate.GeneratedMSBuildEditorConfig.editorconfig
+D:\FPT\PRN_\Project\06\BuiltlnDelegate\BuiltlnDelegate\obj\Debug\net8.0\BuiltlnDelegate.AssemblyInfoInputs.cache
+D:\FPT\PRN_\Project\06\BuiltlnDelegate\BuiltlnDelegate\obj\Debug\net8.0\BuiltlnDelegate.AssemblyInfo.cs
+D:\FPT\PRN_\Project\06\BuiltlnDelegate\BuiltlnDelegate\obj\Debug\net8.0\BuiltlnDelegate.csproj.CoreCompileInputs.cache
+D:\FPT\PRN_\Project\06\BuiltlnDelegate\BuiltlnDelegate\obj\Debug\net8.0\BuiltlnDelegate.dll
+D:\FPT\PRN_\Project\06\BuiltlnDelegate\BuiltlnDelegate\obj\Debug\net8.0\refint\BuiltlnDelegate.dll
+D:\FPT\PRN_\Project\06\BuiltlnDelegate\BuiltlnDelegate\obj\Debug\net8.0\BuiltlnDelegate.pdb
+D:\FPT\PRN_\Project\06\BuiltlnDelegate\BuiltlnDelegate\obj\Debug\net8.0\BuiltlnDelegate.genruntimeconfig.cache
+D:\FPT\PRN_\Project\06\BuiltlnDelegate\BuiltlnDelegate\obj\Debug\net8.0\ref\BuiltlnDelegate.dll

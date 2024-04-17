@@ -1,0 +1,14 @@
+D:\FPT\PRN_\Project\04-collection\FAP\StudentManager\bin\Debug\net8.0\StudentManager.exe
+D:\FPT\PRN_\Project\04-collection\FAP\StudentManager\bin\Debug\net8.0\StudentManager.deps.json
+D:\FPT\PRN_\Project\04-collection\FAP\StudentManager\bin\Debug\net8.0\StudentManager.runtimeconfig.json
+D:\FPT\PRN_\Project\04-collection\FAP\StudentManager\bin\Debug\net8.0\StudentManager.dll
+D:\FPT\PRN_\Project\04-collection\FAP\StudentManager\bin\Debug\net8.0\StudentManager.pdb
+D:\FPT\PRN_\Project\04-collection\FAP\StudentManager\obj\Debug\net8.0\StudentManager.GeneratedMSBuildEditorConfig.editorconfig
+D:\FPT\PRN_\Project\04-collection\FAP\StudentManager\obj\Debug\net8.0\StudentManager.AssemblyInfoInputs.cache
+D:\FPT\PRN_\Project\04-collection\FAP\StudentManager\obj\Debug\net8.0\StudentManager.AssemblyInfo.cs
+D:\FPT\PRN_\Project\04-collection\FAP\StudentManager\obj\Debug\net8.0\StudentManager.csproj.CoreCompileInputs.cache
+D:\FPT\PRN_\Project\04-collection\FAP\StudentManager\obj\Debug\net8.0\StudentManager.dll
+D:\FPT\PRN_\Project\04-collection\FAP\StudentManager\obj\Debug\net8.0\refint\StudentManager.dll
+D:\FPT\PRN_\Project\04-collection\FAP\StudentManager\obj\Debug\net8.0\StudentManager.pdb
+D:\FPT\PRN_\Project\04-collection\FAP\StudentManager\obj\Debug\net8.0\StudentManager.genruntimeconfig.cache
+D:\FPT\PRN_\Project\04-collection\FAP\StudentManager\obj\Debug\net8.0\ref\StudentManager.dll

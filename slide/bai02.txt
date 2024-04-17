@@ -1,0 +1,60 @@
+metadata 
+
+
+- 1. console app 
+-
+
+
+namespage BMI
+
+
+=> Console.WriteLine("you bmi based on weigh: {0} and heigh: {1} , bmi {2}", weight, heigh,bmi); => place holder 
+
+=> Console.WriteLine($"you bmi based on weigh: {weight} and heigh: {heigh} , bmi {bmi}"); nội suy giá trị nằm trong chuỗi (interpolation)
+- phân tích trong chuỗi đâu là biến đâu là chuỗi có đấu $ 
+
+
+\n xuống dòng kiễu truyền thống 
+
+Console.WriteLine(@".."); có gì in vậy in src => verbatim String -raw String chuỗi nguyên bản.-> khi lưu đường dẩn ổ đĩa/tệp tin.
+			vd; string path = @"D:\FPT";
+
+
+-- thiết kế hàm:
+nhận vào => xử lý => trả lại 
+y = f(x) =x^2 tính re-use cao 
+		sqrt(25)=5
+
+
+public static double GetBMI(double weigh,double heigh) =>   weigh / Math.Pow(heigh, 2); biểu thức expression body viết rút gọn thân hàm != lamda 
+
+
+
++++ dalegate
+
+
+
++out, in, ref:
+	-KEYWORK (out, ref) thay đổi giá trị của biến tham số truyền vào.
+		static void PassByOut(out int value){...}
+		
+	+(out)  truyền tham chiếu biến out sẽ nhận sẽ trỏ đến biến đâu đó. 
+			mội thay đổi giá trị trong biến out thì biến tham chiếu đến sẽ bị thay đổi
+			
+			(out) còn có nghĩa : chắc chắm sẽ có giá trị gán vào tham số.Hàm chưa out "LUON LUON" có giá trị.
+
+			Có thẻ sd out theo cách (on-the-go), take-away, vừa dùng vừa tạo, khai báo biến để chứa giá trị từ 1 hàm có đối số chưa (out), ngay trong fontion, => khai báo lúc dùng.
+			PassByOut(out int y);=> khai báo nhúng.
+			
+
+	+(in): k cho thay đổi giá trị chỉ đc sử dụng k đc thay đổi.
+	(?) PassByIn(in Studen x);=> Studen là 1 obj -> thay đổi gì ?
+
+
+	+(Ref) dùng tương tự in và out nhưng hoạt động khác out. Làm biến biên ngoài thay đổi giống out. Nhưng có thể thay đổi bằng lệnh (=) hoặc không thay đôit tùy cách người sử dụng. 
+	-ref; bắt buộn biến đầu vào phải có giá trị != (out), k nhất thiết phải có giá trị.
+	=> không " on-the-go" vì k nhất thiết funtion phải thay đổi biến đầu vào.
+		- bắt buộc tham số đầu vào phải có giá trị.
+
+==========================================================================================
+

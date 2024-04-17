@@ -1,0 +1,6 @@
+D:\FPT\PRN_\Project\01\Bmi\bin\Debug\Bmi.dll
+D:\FPT\PRN_\Project\01\Bmi\bin\Debug\Bmi.pdb
+D:\FPT\PRN_\Project\01\Bmi\obj\Debug\Bmi.csproj.AssemblyReference.cache
+D:\FPT\PRN_\Project\01\Bmi\obj\Debug\Bmi.csproj.CoreCompileInputs.cache
+D:\FPT\PRN_\Project\01\Bmi\obj\Debug\Bmi.dll
+D:\FPT\PRN_\Project\01\Bmi\obj\Debug\Bmi.pdb

@@ -1,0 +1,10 @@
+D:\FPT\PRN_\Project\01\BmiV3\bin\Debug\BmiV3.exe.config
+D:\FPT\PRN_\Project\01\BmiV3\bin\Debug\BmiV3.exe
+D:\FPT\PRN_\Project\01\BmiV3\bin\Debug\BmiV3.pdb
+D:\FPT\PRN_\Project\01\BmiV3\bin\Debug\Bmi.dll
+D:\FPT\PRN_\Project\01\BmiV3\bin\Debug\Bmi.pdb
+D:\FPT\PRN_\Project\01\BmiV3\obj\Debug\BmiV3.csproj.AssemblyReference.cache
+D:\FPT\PRN_\Project\01\BmiV3\obj\Debug\BmiV3.csproj.CoreCompileInputs.cache
+D:\FPT\PRN_\Project\01\BmiV3\obj\Debug\BmiV3.csproj.Up2Date
+D:\FPT\PRN_\Project\01\BmiV3\obj\Debug\BmiV3.exe
+D:\FPT\PRN_\Project\01\BmiV3\obj\Debug\BmiV3.pdb

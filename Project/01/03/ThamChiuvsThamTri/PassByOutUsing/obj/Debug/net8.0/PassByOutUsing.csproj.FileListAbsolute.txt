@@ -1,0 +1,14 @@
+D:\FPT\PRN_\Project\01\03\ThamChiuvsThamTri\PassByOutUsing\bin\Debug\net8.0\PassByOutUsing.exe
+D:\FPT\PRN_\Project\01\03\ThamChiuvsThamTri\PassByOutUsing\bin\Debug\net8.0\PassByOutUsing.deps.json
+D:\FPT\PRN_\Project\01\03\ThamChiuvsThamTri\PassByOutUsing\bin\Debug\net8.0\PassByOutUsing.runtimeconfig.json
+D:\FPT\PRN_\Project\01\03\ThamChiuvsThamTri\PassByOutUsing\bin\Debug\net8.0\PassByOutUsing.dll
+D:\FPT\PRN_\Project\01\03\ThamChiuvsThamTri\PassByOutUsing\bin\Debug\net8.0\PassByOutUsing.pdb
+D:\FPT\PRN_\Project\01\03\ThamChiuvsThamTri\PassByOutUsing\obj\Debug\net8.0\PassByOutUsing.GeneratedMSBuildEditorConfig.editorconfig
+D:\FPT\PRN_\Project\01\03\ThamChiuvsThamTri\PassByOutUsing\obj\Debug\net8.0\PassByOutUsing.AssemblyInfoInputs.cache
+D:\FPT\PRN_\Project\01\03\ThamChiuvsThamTri\PassByOutUsing\obj\Debug\net8.0\PassByOutUsing.AssemblyInfo.cs
+D:\FPT\PRN_\Project\01\03\ThamChiuvsThamTri\PassByOutUsing\obj\Debug\net8.0\PassByOutUsing.csproj.CoreCompileInputs.cache
+D:\FPT\PRN_\Project\01\03\ThamChiuvsThamTri\PassByOutUsing\obj\Debug\net8.0\PassByOutUsing.dll
+D:\FPT\PRN_\Project\01\03\ThamChiuvsThamTri\PassByOutUsing\obj\Debug\net8.0\refint\PassByOutUsing.dll
+D:\FPT\PRN_\Project\01\03\ThamChiuvsThamTri\PassByOutUsing\obj\Debug\net8.0\PassByOutUsing.pdb
+D:\FPT\PRN_\Project\01\03\ThamChiuvsThamTri\PassByOutUsing\obj\Debug\net8.0\PassByOutUsing.genruntimeconfig.cache
+D:\FPT\PRN_\Project\01\03\ThamChiuvsThamTri\PassByOutUsing\obj\Debug\net8.0\ref\PassByOutUsing.dll

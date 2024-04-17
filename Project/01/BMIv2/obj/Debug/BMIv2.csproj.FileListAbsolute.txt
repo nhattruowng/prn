@@ -1,0 +1,7 @@
+D:\FPT\PRN_\Project\01\BMIv2\bin\Debug\BMIv2.exe.config
+D:\FPT\PRN_\Project\01\BMIv2\bin\Debug\BMIv2.exe
+D:\FPT\PRN_\Project\01\BMIv2\bin\Debug\BMIv2.pdb
+D:\FPT\PRN_\Project\01\BMIv2\obj\Debug\BMIv2.csproj.AssemblyReference.cache
+D:\FPT\PRN_\Project\01\BMIv2\obj\Debug\BMIv2.csproj.CoreCompileInputs.cache
+D:\FPT\PRN_\Project\01\BMIv2\obj\Debug\BMIv2.exe
+D:\FPT\PRN_\Project\01\BMIv2\obj\Debug\BMIv2.pdb

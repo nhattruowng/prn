@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\FPT\\PRN_\\Project\\01\\03\\ThamChiuvsThamTri\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B8F197DE-50EE-4A03-BD45-6F2535BACEC4}|PassByRef\\PassByRef.csproj|d:\\fpt\\prn_\\project\\01\\03\\thamchiuvsthamtri\\passbyref\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8F197DE-50EE-4A03-BD45-6F2535BACEC4}|PassByRef\\PassByRef.csproj|solutionrelative:passbyref\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A8DE2A3-8511-46BD-A647-A2088455837C}|PassByOutUsing\\PassByOutUsing.csproj|d:\\fpt\\prn_\\project\\01\\03\\thamchiuvsthamtri\\passbyoutusing\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A8DE2A3-8511-46BD-A647-A2088455837C}|PassByOutUsing\\PassByOutUsing.csproj|solutionrelative:passbyoutusing\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FFD385D-2579-468D-8DBF-1D2268422D76}|ThamChiuvsThamTri\\ThamChiuvsThamTri.csproj|d:\\fpt\\prn_\\project\\01\\03\\thamchiuvsthamtri\\thamchiuvsthamtri\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FFD385D-2579-468D-8DBF-1D2268422D76}|ThamChiuvsThamTri\\ThamChiuvsThamTri.csproj|solutionrelative:thamchiuvsthamtri\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\FPT\\PRN_\\Project\\01\\03\\ThamChiuvsThamTri\\PassByRef\\Program.cs",
+              "RelativeDocumentMoniker": "PassByRef\\Program.cs",
+              "ToolTip": "D:\\FPT\\PRN_\\Project\\01\\03\\ThamChiuvsThamTri\\PassByRef\\Program.cs",
+              "RelativeToolTip": "PassByRef\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-10T09:30:17.839Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\FPT\\PRN_\\Project\\01\\03\\ThamChiuvsThamTri\\PassByOutUsing\\Program.cs",
+              "RelativeDocumentMoniker": "PassByOutUsing\\Program.cs",
+              "ToolTip": "D:\\FPT\\PRN_\\Project\\01\\03\\ThamChiuvsThamTri\\PassByOutUsing\\Program.cs",
+              "RelativeToolTip": "PassByOutUsing\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-10T08:38:50.471Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\FPT\\PRN_\\Project\\01\\03\\ThamChiuvsThamTri\\ThamChiuvsThamTri\\Program.cs",
+              "RelativeDocumentMoniker": "ThamChiuvsThamTri\\Program.cs",
+              "ToolTip": "D:\\FPT\\PRN_\\Project\\01\\03\\ThamChiuvsThamTri\\ThamChiuvsThamTri\\Program.cs",
+              "RelativeToolTip": "ThamChiuvsThamTri\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-10T07:53:49.265Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
