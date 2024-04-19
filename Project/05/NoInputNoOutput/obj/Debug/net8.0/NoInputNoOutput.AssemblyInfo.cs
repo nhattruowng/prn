@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("NoInputNoOutput")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6aaf5512cbc050332b5443e22ee90fa39fc4bf4c")]
 [assembly: System.Reflection.AssemblyProductAttribute("NoInputNoOutput")]
 [assembly: System.Reflection.AssemblyTitleAttribute("NoInputNoOutput")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

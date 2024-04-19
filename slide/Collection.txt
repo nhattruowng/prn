@@ -207,9 +207,13 @@ Microsoft chuẩn hóa cách đặt tên
 
  4+ delegate có sẵn cho Microsoft
 + Action   => k vao k ra
-+ Action<>  => có vào k ra
-+ Func<>   => 
-+Predicate
++ Action<>  => có vào k ra => có 1 6 tham số tất cả.
++ Func<>   =>  Func<int> => int F(){}
+			Func< int, String> => String F(int x){..}
+			=> trả về là kiểu dữ liệu genegic cuối cùng. => func<..,...,...,out T>
+			=> có 17 hàm Func<>;   
++Predicate  => trả về đúng sai.
+			
 
 
 (
@@ -231,7 +235,7 @@ b();
 
 
 
-
+SOLID
 
 
 

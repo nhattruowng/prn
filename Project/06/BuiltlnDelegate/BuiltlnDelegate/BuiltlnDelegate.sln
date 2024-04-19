@@ -3,9 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34723.18
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuiltlnDelegate", "BuiltlnDelegate.csproj", "{D6D48CDE-BE1F-4704-BEF7-87023CFDB68B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BuiltlnDelegate", "BuiltlnDelegate.csproj", "{D6D48CDE-BE1F-4704-BEF7-87023CFDB68B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuiltlnDelegateV2", "..\BuiltlnDelegateV2\BuiltlnDelegateV2.csproj", "{25D6BF03-53A4-4DAA-AA9E-3C7A7983915A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BuiltlnDelegateV2", "..\BuiltlnDelegateV2\BuiltlnDelegateV2.csproj", "{25D6BF03-53A4-4DAA-AA9E-3C7A7983915A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FuncDelegate", "..\FuncDelegate\FuncDelegate.csproj", "{96FA14C1-F172-45BB-9719-3BD9485A6E2F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PredicateDelegate", "..\PredicateDelegate\PredicateDelegate.csproj", "{4AD4F697-B5DF-402C-8DC5-87F8995A930B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +25,14 @@ Global
 		{25D6BF03-53A4-4DAA-AA9E-3C7A7983915A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{25D6BF03-53A4-4DAA-AA9E-3C7A7983915A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{25D6BF03-53A4-4DAA-AA9E-3C7A7983915A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{96FA14C1-F172-45BB-9719-3BD9485A6E2F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96FA14C1-F172-45BB-9719-3BD9485A6E2F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96FA14C1-F172-45BB-9719-3BD9485A6E2F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96FA14C1-F172-45BB-9719-3BD9485A6E2F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4AD4F697-B5DF-402C-8DC5-87F8995A930B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4AD4F697-B5DF-402C-8DC5-87F8995A930B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4AD4F697-B5DF-402C-8DC5-87F8995A930B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4AD4F697-B5DF-402C-8DC5-87F8995A930B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

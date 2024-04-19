@@ -1,0 +1,15 @@
+D:\FPT\PRN_\Project\06\BuiltlnDelegate\FuncDelegate\bin\Debug\net8.0\FuncDelegate.exe
+D:\FPT\PRN_\Project\06\BuiltlnDelegate\FuncDelegate\bin\Debug\net8.0\FuncDelegate.deps.json
+D:\FPT\PRN_\Project\06\BuiltlnDelegate\FuncDelegate\bin\Debug\net8.0\FuncDelegate.runtimeconfig.json
+D:\FPT\PRN_\Project\06\BuiltlnDelegate\FuncDelegate\bin\Debug\net8.0\FuncDelegate.dll
+D:\FPT\PRN_\Project\06\BuiltlnDelegate\FuncDelegate\bin\Debug\net8.0\FuncDelegate.pdb
+D:\FPT\PRN_\Project\06\BuiltlnDelegate\FuncDelegate\obj\Debug\net8.0\FuncDelegate.GeneratedMSBuildEditorConfig.editorconfig
+D:\FPT\PRN_\Project\06\BuiltlnDelegate\FuncDelegate\obj\Debug\net8.0\FuncDelegate.AssemblyInfoInputs.cache
+D:\FPT\PRN_\Project\06\BuiltlnDelegate\FuncDelegate\obj\Debug\net8.0\FuncDelegate.AssemblyInfo.cs
+D:\FPT\PRN_\Project\06\BuiltlnDelegate\FuncDelegate\obj\Debug\net8.0\FuncDelegate.csproj.CoreCompileInputs.cache
+D:\FPT\PRN_\Project\06\BuiltlnDelegate\FuncDelegate\obj\Debug\net8.0\FuncDelegate.sourcelink.json
+D:\FPT\PRN_\Project\06\BuiltlnDelegate\FuncDelegate\obj\Debug\net8.0\FuncDelegate.dll
+D:\FPT\PRN_\Project\06\BuiltlnDelegate\FuncDelegate\obj\Debug\net8.0\refint\FuncDelegate.dll
+D:\FPT\PRN_\Project\06\BuiltlnDelegate\FuncDelegate\obj\Debug\net8.0\FuncDelegate.pdb
+D:\FPT\PRN_\Project\06\BuiltlnDelegate\FuncDelegate\obj\Debug\net8.0\FuncDelegate.genruntimeconfig.cache
+D:\FPT\PRN_\Project\06\BuiltlnDelegate\FuncDelegate\obj\Debug\net8.0\ref\FuncDelegate.dll
