@@ -1,0 +1,15 @@
+D:\FPT\PRN_\Project\07_DelageteInUse\ListAndDelegate\bin\Debug\net8.0\ListAndDelegate.exe
+D:\FPT\PRN_\Project\07_DelageteInUse\ListAndDelegate\bin\Debug\net8.0\ListAndDelegate.deps.json
+D:\FPT\PRN_\Project\07_DelageteInUse\ListAndDelegate\bin\Debug\net8.0\ListAndDelegate.runtimeconfig.json
+D:\FPT\PRN_\Project\07_DelageteInUse\ListAndDelegate\bin\Debug\net8.0\ListAndDelegate.dll
+D:\FPT\PRN_\Project\07_DelageteInUse\ListAndDelegate\bin\Debug\net8.0\ListAndDelegate.pdb
+D:\FPT\PRN_\Project\07_DelageteInUse\ListAndDelegate\obj\Debug\net8.0\ListAndDelegate.GeneratedMSBuildEditorConfig.editorconfig
+D:\FPT\PRN_\Project\07_DelageteInUse\ListAndDelegate\obj\Debug\net8.0\ListAndDelegate.AssemblyInfoInputs.cache
+D:\FPT\PRN_\Project\07_DelageteInUse\ListAndDelegate\obj\Debug\net8.0\ListAndDelegate.AssemblyInfo.cs
+D:\FPT\PRN_\Project\07_DelageteInUse\ListAndDelegate\obj\Debug\net8.0\ListAndDelegate.csproj.CoreCompileInputs.cache
+D:\FPT\PRN_\Project\07_DelageteInUse\ListAndDelegate\obj\Debug\net8.0\ListAndDelegate.sourcelink.json
+D:\FPT\PRN_\Project\07_DelageteInUse\ListAndDelegate\obj\Debug\net8.0\ListAndDelegate.dll
+D:\FPT\PRN_\Project\07_DelageteInUse\ListAndDelegate\obj\Debug\net8.0\refint\ListAndDelegate.dll
+D:\FPT\PRN_\Project\07_DelageteInUse\ListAndDelegate\obj\Debug\net8.0\ListAndDelegate.pdb
+D:\FPT\PRN_\Project\07_DelageteInUse\ListAndDelegate\obj\Debug\net8.0\ListAndDelegate.genruntimeconfig.cache
+D:\FPT\PRN_\Project\07_DelageteInUse\ListAndDelegate\obj\Debug\net8.0\ref\ListAndDelegate.dll

@@ -1,0 +1,15 @@
+D:\FPT\PRN_\Project\07_DelageteInUse\DelegateInUse_PassByDelage\bin\Debug\net8.0\DelegateInUse_PassByDelage.exe
+D:\FPT\PRN_\Project\07_DelageteInUse\DelegateInUse_PassByDelage\bin\Debug\net8.0\DelegateInUse_PassByDelage.deps.json
+D:\FPT\PRN_\Project\07_DelageteInUse\DelegateInUse_PassByDelage\bin\Debug\net8.0\DelegateInUse_PassByDelage.runtimeconfig.json
+D:\FPT\PRN_\Project\07_DelageteInUse\DelegateInUse_PassByDelage\bin\Debug\net8.0\DelegateInUse_PassByDelage.dll
+D:\FPT\PRN_\Project\07_DelageteInUse\DelegateInUse_PassByDelage\bin\Debug\net8.0\DelegateInUse_PassByDelage.pdb
+D:\FPT\PRN_\Project\07_DelageteInUse\DelegateInUse_PassByDelage\obj\Debug\net8.0\DelegateInUse_PassByDelage.GeneratedMSBuildEditorConfig.editorconfig
+D:\FPT\PRN_\Project\07_DelageteInUse\DelegateInUse_PassByDelage\obj\Debug\net8.0\DelegateInUse_PassByDelage.AssemblyInfoInputs.cache
+D:\FPT\PRN_\Project\07_DelageteInUse\DelegateInUse_PassByDelage\obj\Debug\net8.0\DelegateInUse_PassByDelage.AssemblyInfo.cs
+D:\FPT\PRN_\Project\07_DelageteInUse\DelegateInUse_PassByDelage\obj\Debug\net8.0\DelegateInUse_PassByDelage.csproj.CoreCompileInputs.cache
+D:\FPT\PRN_\Project\07_DelageteInUse\DelegateInUse_PassByDelage\obj\Debug\net8.0\DelegateInUse_PassByDelage.sourcelink.json
+D:\FPT\PRN_\Project\07_DelageteInUse\DelegateInUse_PassByDelage\obj\Debug\net8.0\DelegateInUse_PassByDelage.dll
+D:\FPT\PRN_\Project\07_DelageteInUse\DelegateInUse_PassByDelage\obj\Debug\net8.0\refint\DelegateInUse_PassByDelage.dll
+D:\FPT\PRN_\Project\07_DelageteInUse\DelegateInUse_PassByDelage\obj\Debug\net8.0\DelegateInUse_PassByDelage.pdb
+D:\FPT\PRN_\Project\07_DelageteInUse\DelegateInUse_PassByDelage\obj\Debug\net8.0\DelegateInUse_PassByDelage.genruntimeconfig.cache
+D:\FPT\PRN_\Project\07_DelageteInUse\DelegateInUse_PassByDelage\obj\Debug\net8.0\ref\DelegateInUse_PassByDelage.dll

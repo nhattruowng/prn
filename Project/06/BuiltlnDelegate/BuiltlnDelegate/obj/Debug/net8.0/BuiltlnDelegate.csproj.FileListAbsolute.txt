@@ -12,3 +12,4 @@ D:\FPT\PRN_\Project\06\BuiltlnDelegate\BuiltlnDelegate\obj\Debug\net8.0\refint\B
 D:\FPT\PRN_\Project\06\BuiltlnDelegate\BuiltlnDelegate\obj\Debug\net8.0\BuiltlnDelegate.pdb
 D:\FPT\PRN_\Project\06\BuiltlnDelegate\BuiltlnDelegate\obj\Debug\net8.0\BuiltlnDelegate.genruntimeconfig.cache
 D:\FPT\PRN_\Project\06\BuiltlnDelegate\BuiltlnDelegate\obj\Debug\net8.0\ref\BuiltlnDelegate.dll
+D:\FPT\PRN_\Project\06\BuiltlnDelegate\BuiltlnDelegate\obj\Debug\net8.0\BuiltlnDelegate.sourcelink.json
