@@ -5,9 +5,11 @@ VisualStudioVersion = 17.9.34723.18
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DelegateInUse_PassByDelage", "DelegateInUse_PassByDelage.csproj", "{73A93775-1232-404F-9318-41DEACE0DEE0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NumberServices", "..\NumberServices\NumberServices.csproj", "{FBE38EF6-4986-4049-A6DB-F7D751F52D54}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NumberServices", "..\NumberServices\NumberServices.csproj", "{FBE38EF6-4986-4049-A6DB-F7D751F52D54}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ListAndDelegate", "..\ListAndDelegate\ListAndDelegate.csproj", "{E7D0A9E0-5057-4351-8E5F-B3DC2EE91E22}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ListAndDelegate", "..\ListAndDelegate\ListAndDelegate.csproj", "{E7D0A9E0-5057-4351-8E5F-B3DC2EE91E22}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NumberServicesV2", "..\NumberServicesV2\NumberServicesV2.csproj", "{0E6CF645-8D64-44F5-91CE-C6498A0406F2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{E7D0A9E0-5057-4351-8E5F-B3DC2EE91E22}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E7D0A9E0-5057-4351-8E5F-B3DC2EE91E22}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E7D0A9E0-5057-4351-8E5F-B3DC2EE91E22}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E6CF645-8D64-44F5-91CE-C6498A0406F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E6CF645-8D64-44F5-91CE-C6498A0406F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E6CF645-8D64-44F5-91CE-C6498A0406F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E6CF645-8D64-44F5-91CE-C6498A0406F2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

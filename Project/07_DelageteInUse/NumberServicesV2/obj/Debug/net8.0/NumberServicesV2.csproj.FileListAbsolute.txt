@@ -1,0 +1,15 @@
+D:\FPT\PRN_\Project\07_DelageteInUse\NumberServicesV2\bin\Debug\net8.0\NumberServicesV2.exe
+D:\FPT\PRN_\Project\07_DelageteInUse\NumberServicesV2\bin\Debug\net8.0\NumberServicesV2.deps.json
+D:\FPT\PRN_\Project\07_DelageteInUse\NumberServicesV2\bin\Debug\net8.0\NumberServicesV2.runtimeconfig.json
+D:\FPT\PRN_\Project\07_DelageteInUse\NumberServicesV2\bin\Debug\net8.0\NumberServicesV2.dll
+D:\FPT\PRN_\Project\07_DelageteInUse\NumberServicesV2\bin\Debug\net8.0\NumberServicesV2.pdb
+D:\FPT\PRN_\Project\07_DelageteInUse\NumberServicesV2\obj\Debug\net8.0\NumberServicesV2.GeneratedMSBuildEditorConfig.editorconfig
+D:\FPT\PRN_\Project\07_DelageteInUse\NumberServicesV2\obj\Debug\net8.0\NumberServicesV2.AssemblyInfoInputs.cache
+D:\FPT\PRN_\Project\07_DelageteInUse\NumberServicesV2\obj\Debug\net8.0\NumberServicesV2.AssemblyInfo.cs
+D:\FPT\PRN_\Project\07_DelageteInUse\NumberServicesV2\obj\Debug\net8.0\NumberServicesV2.csproj.CoreCompileInputs.cache
+D:\FPT\PRN_\Project\07_DelageteInUse\NumberServicesV2\obj\Debug\net8.0\NumberServicesV2.sourcelink.json
+D:\FPT\PRN_\Project\07_DelageteInUse\NumberServicesV2\obj\Debug\net8.0\NumberServicesV2.dll
+D:\FPT\PRN_\Project\07_DelageteInUse\NumberServicesV2\obj\Debug\net8.0\refint\NumberServicesV2.dll
+D:\FPT\PRN_\Project\07_DelageteInUse\NumberServicesV2\obj\Debug\net8.0\NumberServicesV2.pdb
+D:\FPT\PRN_\Project\07_DelageteInUse\NumberServicesV2\obj\Debug\net8.0\NumberServicesV2.genruntimeconfig.cache
+D:\FPT\PRN_\Project\07_DelageteInUse\NumberServicesV2\obj\Debug\net8.0\ref\NumberServicesV2.dll
