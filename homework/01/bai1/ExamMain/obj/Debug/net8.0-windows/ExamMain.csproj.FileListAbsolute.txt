@@ -1,0 +1,17 @@
+D:\FPT\PRN_\homework\01\bai1\ExamMain\bin\Debug\net8.0-windows\ExamMain.exe
+D:\FPT\PRN_\homework\01\bai1\ExamMain\bin\Debug\net8.0-windows\ExamMain.deps.json
+D:\FPT\PRN_\homework\01\bai1\ExamMain\bin\Debug\net8.0-windows\ExamMain.runtimeconfig.json
+D:\FPT\PRN_\homework\01\bai1\ExamMain\bin\Debug\net8.0-windows\ExamMain.dll
+D:\FPT\PRN_\homework\01\bai1\ExamMain\bin\Debug\net8.0-windows\ExamMain.pdb
+D:\FPT\PRN_\homework\01\bai1\ExamMain\obj\Debug\net8.0-windows\ExamMain.csproj.GenerateResource.cache
+D:\FPT\PRN_\homework\01\bai1\ExamMain\obj\Debug\net8.0-windows\ExamMain.GeneratedMSBuildEditorConfig.editorconfig
+D:\FPT\PRN_\homework\01\bai1\ExamMain\obj\Debug\net8.0-windows\ExamMain.AssemblyInfoInputs.cache
+D:\FPT\PRN_\homework\01\bai1\ExamMain\obj\Debug\net8.0-windows\ExamMain.AssemblyInfo.cs
+D:\FPT\PRN_\homework\01\bai1\ExamMain\obj\Debug\net8.0-windows\ExamMain.csproj.CoreCompileInputs.cache
+D:\FPT\PRN_\homework\01\bai1\ExamMain\obj\Debug\net8.0-windows\ExamMain.sourcelink.json
+D:\FPT\PRN_\homework\01\bai1\ExamMain\obj\Debug\net8.0-windows\ExamMain.dll
+D:\FPT\PRN_\homework\01\bai1\ExamMain\obj\Debug\net8.0-windows\refint\ExamMain.dll
+D:\FPT\PRN_\homework\01\bai1\ExamMain\obj\Debug\net8.0-windows\ExamMain.pdb
+D:\FPT\PRN_\homework\01\bai1\ExamMain\obj\Debug\net8.0-windows\ExamMain.genruntimeconfig.cache
+D:\FPT\PRN_\homework\01\bai1\ExamMain\obj\Debug\net8.0-windows\ref\ExamMain.dll
+D:\FPT\PRN_\homework\01\bai1\ExamMain\obj\Debug\net8.0-windows\ExamMain.ExamMain.resources
