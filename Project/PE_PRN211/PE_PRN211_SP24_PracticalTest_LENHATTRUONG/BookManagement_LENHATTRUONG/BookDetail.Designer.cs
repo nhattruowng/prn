@@ -52,6 +52,7 @@
             cboBookCategory.Name = "cboBookCategory";
             cboBookCategory.Size = new Size(446, 28);
             cboBookCategory.TabIndex = 2;
+            cboBookCategory.SelectedIndexChanged += cboBookCategory_SelectedIndexChanged;
             // 
             // btnSave
             // 

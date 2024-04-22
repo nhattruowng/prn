@@ -43,7 +43,7 @@ namespace BookManagement_LENHATTRUONG
                 cboBookCategory.SelectedValue = 2;
             }
             // dropdown 
-           
+
         }
 
         private void btnSave_Click(object sender, EventArgs e)
@@ -51,6 +51,11 @@ namespace BookManagement_LENHATTRUONG
             /// show value chon
             String category = cboBookCategory.SelectedValue.ToString();
             MessageBox.Show(category);
+        }
+
+        private void cboBookCategory_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
