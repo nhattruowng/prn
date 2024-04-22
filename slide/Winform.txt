@@ -1,1 +1,3 @@
 Winform
+
+ORM: bo thu vien hoc tro DB k can query

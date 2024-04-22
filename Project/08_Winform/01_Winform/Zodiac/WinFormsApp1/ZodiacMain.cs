@@ -34,8 +34,10 @@ namespace WinFormsApp1
             String day = txtDay.Text;
             String month = txtMonth.Text;
             // MessageBox.Show(day + " \\ " + month, " Day and month ");
-
-            lblResure.Text += ZodiacCalculator.GetZodiacEnglish(int.Parse(day), int.Parse(month));
+            if (int.Parse(month) <= 0 || int.Parse(month) > 12 || int.Parse(day) <= 0 || int.Parse(day) > 31)
+                MessageBox.Show("Sai Thang Sai ngay ! ", "Exit", MessageBoxButtons.YesNo, MessageBoxIcon.Stop);
+           else
+            lblResure.Text += ZodiacCalculator.GetZodiacEnglish(int.Parse(month), int.Parse(day));
 
         }
 
