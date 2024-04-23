@@ -1,0 +1,15 @@
+> Microsoft.EntityFrameworkCore
+> Microsoft.EntityFrameworkCore.Design
+> Microsoft.EntityFrameworkCore.Tools
+> Microsoft.EntityFrameworkCore.SqlServer
+
+=> sinh ra các class obj có trong db.
+
+dotnet ef dbcontext scaffold "Server=(local);Database= BookManagementDb;UID=sa;PWD=12345;TrustServerCertificate=True" "Microsoft.EntityFrameworkCore.SqlServer" --output-dir "Entities" --context-dir ".\"
+
+=>
+
+
+
+Repositories
+Services 

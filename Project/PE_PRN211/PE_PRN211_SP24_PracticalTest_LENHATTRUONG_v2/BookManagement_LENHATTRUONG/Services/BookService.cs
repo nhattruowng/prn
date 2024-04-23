@@ -1,4 +1,5 @@
-﻿using Repositories.Entities;
+﻿using Repositories;
+using Repositories.Entities;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,14 +10,19 @@ namespace Services
 {
     public class BookService
     {
-        public List<Book> GetBookList()
-        {
-            return new()
-            {
-            new Book(){BookId=01,BookName="Tuoi Tre dang gia Bao nhieu",Author = " ressio Nguyenn" },
-            new Book(){BookId=02,BookName="doi ngan dung ngu day",Author ="Robi" },
-            new Book(){BookId = 03, BookName= "Minh la nang viec minh la choi chang", Quantity=3 }
-            }; 
-        }
+        private BookRepository _repository = new();
+        public List<Book> GetBookList() => _repository.GetBooks();
+
+
+        public void DeleteBook(Book book) =>
+            _repository.DeleteBook(book);
+
+
+        public void CreatBook(Book book) =>
+            _repository.CreateBook(book);
+
+        public void UpdateBook(Book book) => 
+            _repository.UpdateBook(book);
+
     }
 }

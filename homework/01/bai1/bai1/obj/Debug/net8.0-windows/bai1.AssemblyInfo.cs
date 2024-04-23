@@ -11,12 +11,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("bai1")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("Bai1")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4b984b3fe7b3ccdb5a3cd6c7b6ea0a832c206c45")]
-[assembly: System.Reflection.AssemblyProductAttribute("bai1")]
-[assembly: System.Reflection.AssemblyTitleAttribute("bai1")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+daa90e09cdc69b028fee3485e4f45a88b1a7d8db")]
+[assembly: System.Reflection.AssemblyProductAttribute("Bai1")]
+[assembly: System.Reflection.AssemblyTitleAttribute("Bai1")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 [assembly: System.Runtime.Versioning.TargetPlatformAttribute("Windows7.0")]
 [assembly: System.Runtime.Versioning.SupportedOSPlatformAttribute("Windows7.0")]

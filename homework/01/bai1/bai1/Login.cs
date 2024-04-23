@@ -26,10 +26,10 @@ namespace bai1
             string name = txtName.Text;
             string pass = txtPass.Text;
 
-            DialogResult a= MessageBox.Show($"code = {code} \n name = {name} " +$"\n pass = {pass}","information",MessageBoxButtons.YesNo,MessageBoxIcon.Error);
+            DialogResult a = MessageBox.Show($"code = {code} \n name = {name} " + $"\n pass = {pass}", "information", MessageBoxButtons.YesNo, MessageBoxIcon.Error);
             if (a == DialogResult.Yes)
             {
-                new ExamMain.ExamMain().Show();              
+                new ExamMain.ExamMain().Show();
             }
         }
     }

@@ -29,16 +29,16 @@
         private void InitializeComponent()
         {
             lblHearder = new Label();
-            dtaBook = new DataGridView();
+            dgvBookList = new DataGridView();
             grgBox = new GroupBox();
             btnSearch = new Button();
-            textBox1 = new TextBox();
+            txtBookName = new TextBox();
             lblSearch = new Label();
             btnCreat = new Button();
             btnUpdate = new Button();
             btnDelete = new Button();
             btnQuit = new Button();
-            ((System.ComponentModel.ISupportInitialize)dtaBook).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)dgvBookList).BeginInit();
             grgBox.SuspendLayout();
             SuspendLayout();
             // 
@@ -53,20 +53,20 @@
             lblHearder.TabIndex = 0;
             lblHearder.Text = "Manager Book";
             // 
-            // dtaBook
+            // dgvBookList
             // 
-            dtaBook.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dtaBook.Location = new Point(37, 178);
-            dtaBook.Name = "dtaBook";
-            dtaBook.RowHeadersWidth = 51;
-            dtaBook.Size = new Size(817, 308);
-            dtaBook.TabIndex = 1;
-            dtaBook.CellContentClick += dataGridView1_CellContentClick;
+            dgvBookList.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dgvBookList.Location = new Point(37, 178);
+            dgvBookList.Name = "dgvBookList";
+            dgvBookList.RowHeadersWidth = 51;
+            dgvBookList.Size = new Size(817, 308);
+            dgvBookList.TabIndex = 1;
+            dgvBookList.CellContentClick += dataGridView1_CellContentClick;
             // 
             // grgBox
             // 
             grgBox.Controls.Add(btnSearch);
-            grgBox.Controls.Add(textBox1);
+            grgBox.Controls.Add(txtBookName);
             grgBox.Controls.Add(lblSearch);
             grgBox.Font = new Font("Segoe UI Semibold", 10.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
             grgBox.Location = new Point(37, 81);
@@ -84,13 +84,14 @@
             btnSearch.TabIndex = 2;
             btnSearch.Text = "Search";
             btnSearch.UseVisualStyleBackColor = true;
+            btnSearch.Click += btnSearch_Click;
             // 
-            // textBox1
+            // txtBookName
             // 
-            textBox1.Location = new Point(173, 35);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(440, 30);
-            textBox1.TabIndex = 1;
+            txtBookName.Location = new Point(173, 35);
+            txtBookName.Name = "txtBookName";
+            txtBookName.Size = new Size(440, 30);
+            txtBookName.TabIndex = 1;
             // 
             // lblSearch
             // 
@@ -129,6 +130,7 @@
             btnDelete.TabIndex = 5;
             btnDelete.Text = "Delete";
             btnDelete.UseVisualStyleBackColor = true;
+            btnDelete.Click += btnDelete_Click;
             // 
             // btnQuit
             // 
@@ -151,14 +153,14 @@
             Controls.Add(btnUpdate);
             Controls.Add(btnCreat);
             Controls.Add(grgBox);
-            Controls.Add(dtaBook);
+            Controls.Add(dgvBookList);
             Controls.Add(lblHearder);
             MaximizeBox = false;
             MinimizeBox = false;
             Name = "Show_Detail";
             Text = "Show_Detail";
             Load += Show_Detail_Load;
-            ((System.ComponentModel.ISupportInitialize)dtaBook).EndInit();
+            ((System.ComponentModel.ISupportInitialize)dgvBookList).EndInit();
             grgBox.ResumeLayout(false);
             grgBox.PerformLayout();
             ResumeLayout(false);
@@ -168,10 +170,10 @@
         #endregion
 
         private Label lblHearder;
-        private DataGridView dtaBook;
+        private DataGridView dgvBookList;
         private GroupBox grgBox;
         private Button btnSearch;
-        private TextBox textBox1;
+        private TextBox txtBookName;
         private Label lblSearch;
         private Button btnCreat;
         private Button btnUpdate;
