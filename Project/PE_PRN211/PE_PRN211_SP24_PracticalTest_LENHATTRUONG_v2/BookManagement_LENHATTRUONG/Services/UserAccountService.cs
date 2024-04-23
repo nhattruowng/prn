@@ -12,6 +12,5 @@ namespace Services
         private UserAccountRepository _repository = new();
         public bool IsLoggedIn(string gmail,string password)
             => _repository.Checklogin(gmail, password);
-        
     }
 }

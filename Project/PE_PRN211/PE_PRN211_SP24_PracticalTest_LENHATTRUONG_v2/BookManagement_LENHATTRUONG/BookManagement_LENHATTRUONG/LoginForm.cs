@@ -34,8 +34,8 @@ namespace BookManagement_LENHATTRUONG
             }
             txtGmail.Text = null;
             txtPassWord.Text = null;
-            Show_Detail a = new Show_Detail();
-            a.ShowDialog();
+            using (Show_Detail a = new Show_Detail())
+                a.ShowDialog();
         }
     }
 }

@@ -61,7 +61,6 @@
             dgvBookList.RowHeadersWidth = 51;
             dgvBookList.Size = new Size(817, 308);
             dgvBookList.TabIndex = 1;
-            dgvBookList.CellContentClick += dataGridView1_CellContentClick;
             // 
             // grgBox
             // 

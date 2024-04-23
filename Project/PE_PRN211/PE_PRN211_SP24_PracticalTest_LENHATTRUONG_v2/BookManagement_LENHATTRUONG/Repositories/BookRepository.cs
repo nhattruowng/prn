@@ -21,7 +21,7 @@ namespace Repositories
         // dung ham nao neu ham do.
         private BookManagementDbContext _context;
         public List<Book> GetBooks() => new BookManagementDbContext().Books.ToList();
-        
+
         // xoa 1 cuon sach
         public void DeleteBook(Book book)
         {

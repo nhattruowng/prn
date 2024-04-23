@@ -50,7 +50,7 @@ namespace BookManagement_LENHATTRUONG
 
         private void btnSearch_Click(object sender, EventArgs e)
         {
-            if (Set == 2)
+            if (Set == 2) // update book
             {
                 EditBook.Author = txtAuthor.Text;
                 EditBook.BookName = txtNameBook.Text;
@@ -61,7 +61,7 @@ namespace BookManagement_LENHATTRUONG
                 EditBook.BookCategoryId = int.Parse(cboBookCategory.SelectedValue.ToString());
                 new BookService().UpdateBook(EditBook);
             }
-            if (Set == 1)
+            if (Set == 1) /// tao book moi
             {
                 Book book = new()
                 {

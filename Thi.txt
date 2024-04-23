@@ -3,7 +3,7 @@
 > Microsoft.EntityFrameworkCore.Tools
 > Microsoft.EntityFrameworkCore.SqlServer
 
-=> sinh ra các class obj có trong db.
+=> sinh ra các class obj có trong db. thực hiện trong của so terminal project  Repositories
 
 dotnet ef dbcontext scaffold "Server=(local);Database= BookManagementDb;UID=sa;PWD=12345;TrustServerCertificate=True" "Microsoft.EntityFrameworkCore.SqlServer" --output-dir "Entities" --context-dir ".\"
 

@@ -18,12 +18,6 @@ namespace BookManagement_LENHATTRUONG
         {
             InitializeComponent();
         }
-
-        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
-
-        }
-
         private void Show_Detail_Load(object sender, EventArgs e)
         {
             dgvBookList.DataSource = new BookService().GetBookList();
