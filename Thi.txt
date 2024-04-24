@@ -13,3 +13,8 @@ dotnet ef dbcontext scaffold "Server=(local);Database= BookManagementDb;UID=sa;P
 
 Repositories
 Services 
+
+dotnet ef dbcontext scaffold "Server=(local);Database=ClothesShop;UID=sa;PWD=12345;TrustServerCertificate=True" "Microsoft.EntityFrameworkCore.SqlServer" --output-dir "Entities" --context-dir ".\"
+
+
+HaoDoan@gmail.com

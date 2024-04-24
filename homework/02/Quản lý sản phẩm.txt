@@ -1,0 +1,106 @@
+Chức nang:
+
+1. **Quản lý sản phẩm:**
+   - Thêm/Sửa/Xóa sản phẩm
+   - Quản lý hình ảnh và giá sản phẩm
+   - Quản lý tồn kho
+   
+2. **Quản lý đơn hàng:**
+   - Xem/Chỉnh sửa/Xác nhận đơn hàng
+   - Tạo và in hóa đơn
+   - Quản lý vận chuyển
+   
+3. **Quản lý danh mục sản phẩm:**
+   - Thêm/Sửa/Xóa danh mục
+   - Quản lý danh mục con
+   - Sắp xếp thứ tự hiển thị
+
+4. **Quản lý khách hàng:**
+   - Xem thông tin khách hàng
+   - Quản lý tài khoản khách hàng
+   - Quản lý địa chỉ giao hàng và thanh toán
+
+5. **Thống kê doanh thu:**
+   - Xem báo cáo doanh thu
+   - Phân tích doanh số bán hàng
+   - Thống kê sản phẩm bán chạy và hình thức thanh toán
+
+6. **Quản lý phiếu nhập hàng:**
+   - Xem/Chỉnh sửa phiếu nhập hàng
+   - Quản lý thông tin nhà cung cấp
+   - Xác nhận và xử lý phiếu nhập hàng
+
+7. **Quản lý thông tin vận chuyển:**
+   - Quản lý thông tin vận chuyển và dịch vụ
+   - Cập nhật phí vận chuyển
+   - Thống kê và báo cáo vận chuyển
+
+8. **Quản lý tài khoản nhân viên:**
+   - Thêm/Sửa/Xóa tài khoản nhân viên
+   - Phân quyền truy cập
+   - Quản lý hoạt động của nhân viên
+
+9. **Quản lý báo cáo và phản hồi:**
+   - Xem báo cáo và phản hồi từ khách hàng
+   - Xử lý yêu cầu hỗ trợ
+   - Phản hồi và giải quyết khiếu nại
+
+10. **Quản lý khuyến mãi và ưu đãi:**
+    - Tạo/Sửa/Xóa chương trình khuyến mãi
+    - Quản lý mã giảm giá và voucher
+    - Thống kê hiệu quả khuyến mãi
+
+11. **Quản lý trang thông tin và nội dung:**
+    - Chỉnh sửa nội dung trang
+    - Quản lý nội dung giới thiệu và liên hệ
+    - Cập nhật tin tức và blog
+
+12. **Quản lý hệ thống và cài đặt:**
+    - Cấu hình cài đặt chung
+    - Quản lý thông tin liên hệ và chính sách
+    - Sao lưu và phục hồi dữ liệu
+
+
+
+DATABASE:
+
+1. **Quản lý sản phẩm:**
+   - Bảng "Products" để lưu thông tin về sản phẩm.
+   - Bảng "ProductImages" để lưu thông tin về hình ảnh sản phẩm.
+
+2. **Quản lý đơn hàng:**
+   - Bảng "Orders" để lưu thông tin về đơn hàng.
+   - Bảng "OrderDetails" để lưu thông tin chi tiết về từng sản phẩm trong đơn hàng.
+
+3. **Quản lý danh mục sản phẩm:**
+   - Bảng "Categories" để lưu thông tin về danh mục sản phẩm.
+   - Bảng "Subcategories" để lưu thông tin về danh mục con.
+
+4. **Quản lý khách hàng:**
+   - Bảng "Customers" để lưu thông tin về khách hàng.
+
+5. **Thống kê doanh thu:**
+   - Không cần bảng riêng nếu dữ liệu được tính toán từ các bảng khác.
+
+6. **Quản lý phiếu nhập hàng:**
+   - Bảng "Supplier" để lưu thông tin về nhà cung cấp.
+   - Bảng "PurchaseOrders" để lưu thông tin về phiếu nhập hàng.
+   - Bảng "PurchaseOrderDetails" để lưu thông tin chi tiết về từng sản phẩm trong phiếu nhập hàng.
+
+7. **Quản lý thông tin vận chuyển:**
+   - Bảng "ShippingMethods" để lưu thông tin về phương thức vận chuyển.
+
+8. **Quản lý tài khoản nhân viên:**
+   - Bảng "Employees" để lưu thông tin về nhân viên.
+
+9. **Quản lý báo cáo và phản hồi:**
+   - Không cần bảng riêng nếu dữ liệu được lưu trong bảng khác.
+
+10. **Quản lý các khuyến mãi và ưu đãi:**
+    - Bảng "Promotions" để lưu thông tin về chương trình khuyến mãi và ưu đãi.
+
+11. **Quản lý trang thông tin và nội dung:**
+    - Không cần bảng riêng nếu dữ liệu được lưu trong bảng khác.
+
+12. **Quản lý hệ thống và cài đặt:**
+    - Bảng "Settings" để lưu các cài đặt chung của hệ thống.
