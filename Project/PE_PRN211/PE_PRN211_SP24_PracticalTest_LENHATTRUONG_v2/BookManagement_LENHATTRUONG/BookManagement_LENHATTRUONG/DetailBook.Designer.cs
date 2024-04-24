@@ -42,10 +42,12 @@
             grDetail = new GroupBox();
             txtPrice = new TextBox();
             numQuantity = new NumericUpDown();
-            datePub = new DateTimePicker();
+            dtpPub = new DateTimePicker();
             txtAuthor = new TextBox();
             txtDescription = new RichTextBox();
             lblAuthor = new Label();
+            txtId = new TextBox();
+            label1 = new Label();
             grDetail.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)numQuantity).BeginInit();
             SuspendLayout();
@@ -57,26 +59,26 @@
             lblHearder.ForeColor = Color.FromArgb(255, 128, 128);
             lblHearder.Location = new Point(417, 9);
             lblHearder.Name = "lblHearder";
-            lblHearder.Size = new Size(192, 52);
-            lblHearder.TabIndex = 1;
-            lblHearder.Text = "Add Book";
+            lblHearder.Size = new Size(44, 52);
+            lblHearder.TabIndex = 2;
+            lblHearder.Text = "?";
             // 
             // btnSave
             // 
-            btnSave.Location = new Point(814, 266);
+            btnSave.Location = new Point(891, 473);
             btnSave.Name = "btnSave";
             btnSave.Size = new Size(117, 29);
-            btnSave.TabIndex = 3;
+            btnSave.TabIndex = 1;
             btnSave.Text = "Save";
             btnSave.UseVisualStyleBackColor = true;
             btnSave.Click += btnSearch_Click;
             // 
             // btnQuit
             // 
-            btnQuit.Location = new Point(570, 266);
+            btnQuit.Location = new Point(647, 473);
             btnQuit.Name = "btnQuit";
             btnQuit.Size = new Size(117, 29);
-            btnQuit.TabIndex = 4;
+            btnQuit.TabIndex = 2;
             btnQuit.Text = "Quit";
             btnQuit.UseVisualStyleBackColor = true;
             btnQuit.Click += btnQuit_Click;
@@ -84,33 +86,33 @@
             // cboBookCategory
             // 
             cboBookCategory.FormattingEnabled = true;
-            cboBookCategory.Location = new Point(153, 116);
+            cboBookCategory.Location = new Point(691, 49);
             cboBookCategory.Name = "cboBookCategory";
             cboBookCategory.Size = new Size(258, 28);
-            cboBookCategory.TabIndex = 5;
+            cboBookCategory.TabIndex = 3;
             // 
             // txtNameBook
             // 
-            txtNameBook.Location = new Point(153, 49);
+            txtNameBook.Location = new Point(145, 111);
             txtNameBook.Name = "txtNameBook";
             txtNameBook.Size = new Size(258, 27);
-            txtNameBook.TabIndex = 6;
+            txtNameBook.TabIndex = 1;
             // 
             // lblBookName
             // 
             lblBookName.AutoSize = true;
             lblBookName.Font = new Font("Segoe UI Semibold", 10.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            lblBookName.Location = new Point(27, 53);
+            lblBookName.Location = new Point(27, 115);
             lblBookName.Name = "lblBookName";
             lblBookName.Size = new Size(100, 23);
-            lblBookName.TabIndex = 7;
+            lblBookName.TabIndex = 2;
             lblBookName.Text = "Book Name";
             // 
             // lblCategory
             // 
             lblCategory.AutoSize = true;
             lblCategory.Font = new Font("Segoe UI Semibold", 10.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            lblCategory.Location = new Point(27, 121);
+            lblCategory.Location = new Point(565, 54);
             lblCategory.Name = "lblCategory";
             lblCategory.Size = new Size(120, 23);
             lblCategory.TabIndex = 8;
@@ -130,7 +132,7 @@
             // 
             lblPublictionDate.AutoSize = true;
             lblPublictionDate.Font = new Font("Segoe UI Semibold", 10.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            lblPublictionDate.Location = new Point(527, 118);
+            lblPublictionDate.Location = new Point(677, 188);
             lblPublictionDate.Name = "lblPublictionDate";
             lblPublictionDate.Size = new Size(131, 23);
             lblPublictionDate.TabIndex = 10;
@@ -140,7 +142,7 @@
             // 
             lblQuantity.AutoSize = true;
             lblQuantity.Font = new Font("Segoe UI Semibold", 10.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            lblQuantity.Location = new Point(530, 184);
+            lblQuantity.Location = new Point(783, 248);
             lblQuantity.Name = "lblQuantity";
             lblQuantity.Size = new Size(77, 23);
             lblQuantity.TabIndex = 11;
@@ -150,7 +152,7 @@
             // 
             lblPrice.AutoSize = true;
             lblPrice.Font = new Font("Segoe UI Semibold", 10.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            lblPrice.Location = new Point(717, 184);
+            lblPrice.Location = new Point(735, 316);
             lblPrice.Name = "lblPrice";
             lblPrice.Size = new Size(47, 23);
             lblPrice.TabIndex = 12;
@@ -158,11 +160,11 @@
             // 
             // grDetail
             // 
+            grDetail.Controls.Add(txtId);
+            grDetail.Controls.Add(label1);
             grDetail.Controls.Add(txtPrice);
             grDetail.Controls.Add(numQuantity);
-            grDetail.Controls.Add(btnQuit);
-            grDetail.Controls.Add(datePub);
-            grDetail.Controls.Add(btnSave);
+            grDetail.Controls.Add(dtpPub);
             grDetail.Controls.Add(txtAuthor);
             grDetail.Controls.Add(txtDescription);
             grDetail.Controls.Add(lblAuthor);
@@ -177,55 +179,73 @@
             grDetail.Location = new Point(32, 83);
             grDetail.Name = "grDetail";
             grDetail.Size = new Size(976, 362);
-            grDetail.TabIndex = 13;
+            grDetail.TabIndex = 0;
             grDetail.TabStop = false;
-            grDetail.Text = " Add Book";
+            grDetail.Text = "?";
             // 
             // txtPrice
             // 
-            txtPrice.Location = new Point(770, 179);
+            txtPrice.Location = new Point(788, 311);
             txtPrice.Name = "txtPrice";
             txtPrice.Size = new Size(161, 27);
-            txtPrice.TabIndex = 19;
+            txtPrice.TabIndex = 7;
             // 
             // numQuantity
             // 
-            numQuantity.Location = new Point(622, 180);
+            numQuantity.Location = new Point(875, 244);
             numQuantity.Name = "numQuantity";
-            numQuantity.Size = new Size(65, 27);
-            numQuantity.TabIndex = 18;
+            numQuantity.Size = new Size(74, 27);
+            numQuantity.TabIndex = 6;
             // 
-            // datePub
+            // dtpPub
             // 
-            datePub.Location = new Point(681, 114);
-            datePub.Name = "datePub";
-            datePub.Size = new Size(250, 27);
-            datePub.TabIndex = 17;
+            dtpPub.Format = DateTimePickerFormat.Short;
+            dtpPub.Location = new Point(831, 184);
+            dtpPub.Name = "dtpPub";
+            dtpPub.Size = new Size(118, 27);
+            dtpPub.TabIndex = 4;
             // 
             // txtAuthor
             // 
-            txtAuthor.Location = new Point(673, 45);
+            txtAuthor.Location = new Point(682, 111);
             txtAuthor.Name = "txtAuthor";
-            txtAuthor.Size = new Size(258, 27);
-            txtAuthor.TabIndex = 16;
+            txtAuthor.Size = new Size(267, 27);
+            txtAuthor.TabIndex = 2;
             // 
             // txtDescription
             // 
             txtDescription.Location = new Point(27, 198);
             txtDescription.Name = "txtDescription";
-            txtDescription.Size = new Size(457, 140);
-            txtDescription.TabIndex = 15;
+            txtDescription.Size = new Size(645, 140);
+            txtDescription.TabIndex = 5;
             txtDescription.Text = "";
             // 
             // lblAuthor
             // 
             lblAuthor.AutoSize = true;
             lblAuthor.Font = new Font("Segoe UI Semibold", 10.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            lblAuthor.Location = new Point(527, 49);
+            lblAuthor.Location = new Point(536, 115);
             lblAuthor.Name = "lblAuthor";
             lblAuthor.Size = new Size(63, 23);
             lblAuthor.TabIndex = 13;
             lblAuthor.Text = "Author";
+            // 
+            // txtId
+            // 
+            txtId.Location = new Point(145, 49);
+            txtId.Name = "txtId";
+            txtId.Size = new Size(258, 27);
+            txtId.TabIndex = 14;
+            // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Font = new Font("Segoe UI Semibold", 10.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label1.Location = new Point(27, 53);
+            label1.Name = "label1";
+            label1.Size = new Size(71, 23);
+            label1.TabIndex = 15;
+            label1.Text = "Book ID";
             // 
             // DetailBook
             // 
@@ -235,6 +255,8 @@
             ClientSize = new Size(1074, 514);
             Controls.Add(grDetail);
             Controls.Add(lblHearder);
+            Controls.Add(btnQuit);
+            Controls.Add(btnSave);
             MaximizeBox = false;
             MinimizeBox = false;
             Name = "DetailBook";
@@ -263,9 +285,11 @@
         private GroupBox grDetail;
         private Label lblAuthor;
         private RichTextBox txtDescription;
-        private DateTimePicker datePub;
+        private DateTimePicker dtpPub;
         private TextBox txtAuthor;
         private TextBox txtPrice;
         private NumericUpDown numQuantity;
+        private TextBox txtId;
+        private Label label1;
     }
 }

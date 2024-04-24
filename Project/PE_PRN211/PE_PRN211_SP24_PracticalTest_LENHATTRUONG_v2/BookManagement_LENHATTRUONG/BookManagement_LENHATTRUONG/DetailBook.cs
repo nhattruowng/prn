@@ -31,20 +31,23 @@ namespace BookManagement_LENHATTRUONG
             {
                 lblHearder.Text = " Creat Book";
                 grDetail.Text = " Creat Detail Book ";
+               // txtId.Text = (string)new BookService().GetBookList().FindLast();
             }
             else
             {
                 lblHearder.Text = "Update Book";
                 grDetail.Text = " Update Detail Book ";
 
+                txtId.Text = EditBook.BookId.ToString();
+                txtId.Enabled = false;
                 txtNameBook.Text = EditBook.BookName;
                 cboBookCategory.SelectedValue = EditBook.BookCategoryId;
                 txtAuthor.Text = EditBook.Author;
                 txtPrice.Text = EditBook.Price.ToString();
                 txtDescription.Text = EditBook.Description;
-                datePub.Value = EditBook.PublicationDate;
+                dtpPub.Value = EditBook.PublicationDate;
                 numQuantity.Value = EditBook.Quantity;
-                cboBookCategory.SelectedValue = EditBook.BookCategoryId;
+                cboBookCategory.SelectedValue = EditBook.BookCategoryId;   
             }
         }
 
@@ -52,28 +55,37 @@ namespace BookManagement_LENHATTRUONG
         {
             if (Set == 2) // update book
             {
+                // id k cho sua
                 EditBook.Author = txtAuthor.Text;
                 EditBook.BookName = txtNameBook.Text;
                 EditBook.Price = double.Parse(txtPrice.Text);
                 EditBook.Description = txtDescription.Text;
-                EditBook.PublicationDate = datePub.Value;
+                EditBook.PublicationDate = dtpPub.Value;
                 EditBook.Quantity = (int)numQuantity.Value;
                 EditBook.BookCategoryId = int.Parse(cboBookCategory.SelectedValue.ToString());
-                new BookService().UpdateBook(EditBook);
+
+
+                new BookService().UpdateBook(EditBook); /// truyen khai ham Update(book)
+
+                MessageBox.Show("Update book succesfunly","Update",
+                    MessageBoxButtons.OK, MessageBoxIcon.Stop);
             }
             if (Set == 1) /// tao book moi
             {
-                Book book = new()
+                // tao 1 book vao dua truc tiep vao CreatBook().
+                new BookService().CreatBook(new()
                 {
                     Author = txtAuthor.Text,
                     BookName = txtNameBook.Text,
                     Price = double.Parse(txtPrice.Text),
                     Description = txtDescription.Text,
-                    PublicationDate = datePub.Value,
+                    PublicationDate = dtpPub.Value,
                     Quantity = (int)numQuantity.Value,
-                    BookCategoryId = int.Parse(cboBookCategory.SelectedValue.ToString()),
-                };
-                new BookService().CreatBook(book);
+                    BookId = int.Parse(txtId.Text),
+                    BookCategoryId = (int)cboBookCategory.SelectedValue
+                });
+                MessageBox.Show("Create book succesfunly", "Create", 
+                    MessageBoxButtons.OK, MessageBoxIcon.Stop);
             }
             Close();
         }

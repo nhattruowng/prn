@@ -1,4 +1,5 @@
-﻿using Services;
+﻿using Repositories.Entities;
+using Services;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -27,15 +28,21 @@ namespace BookManagement_LENHATTRUONG
 
         private void btnLogin_Click(object sender, EventArgs e)
         {
+
             if (!new UserAccountService().IsLoggedIn(txtGmail.Text, txtPassWord.Text))
             {
-                DialogResult b = MessageBox.Show("Dang nhap That Bai !", "Login", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("Dang nhap That Bai !", "Login", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }
+
+
+            /// neu k phai Ad thi chui " k phai ad min k co quyen"
             txtGmail.Text = null;
             txtPassWord.Text = null;
-            using (Show_Detail a = new Show_Detail())
-                a.ShowDialog();
+             new Show_Detail().Show();
+            this.Hide();
         }
-    }
+
+       
+    } 
 }

@@ -38,6 +38,7 @@
             btnUpdate = new Button();
             btnDelete = new Button();
             btnQuit = new Button();
+            btnLogout = new Button();
             ((System.ComponentModel.ISupportInitialize)dgvBookList).BeginInit();
             grgBox.SuspendLayout();
             SuspendLayout();
@@ -103,7 +104,7 @@
             // 
             // btnCreat
             // 
-            btnCreat.Location = new Point(909, 178);
+            btnCreat.Location = new Point(920, 108);
             btnCreat.Name = "btnCreat";
             btnCreat.Size = new Size(117, 29);
             btnCreat.TabIndex = 3;
@@ -113,7 +114,7 @@
             // 
             // btnUpdate
             // 
-            btnUpdate.Location = new Point(909, 271);
+            btnUpdate.Location = new Point(920, 201);
             btnUpdate.Name = "btnUpdate";
             btnUpdate.Size = new Size(117, 29);
             btnUpdate.TabIndex = 4;
@@ -123,7 +124,7 @@
             // 
             // btnDelete
             // 
-            btnDelete.Location = new Point(909, 362);
+            btnDelete.Location = new Point(920, 292);
             btnDelete.Name = "btnDelete";
             btnDelete.Size = new Size(117, 29);
             btnDelete.TabIndex = 5;
@@ -133,7 +134,7 @@
             // 
             // btnQuit
             // 
-            btnQuit.Location = new Point(909, 447);
+            btnQuit.Location = new Point(920, 377);
             btnQuit.Name = "btnQuit";
             btnQuit.Size = new Size(117, 29);
             btnQuit.TabIndex = 6;
@@ -141,12 +142,23 @@
             btnQuit.UseVisualStyleBackColor = true;
             btnQuit.Click += btnQuit_Click;
             // 
+            // btnLogout
+            // 
+            btnLogout.Location = new Point(920, 457);
+            btnLogout.Name = "btnLogout";
+            btnLogout.Size = new Size(117, 29);
+            btnLogout.TabIndex = 7;
+            btnLogout.Text = "LogOut";
+            btnLogout.UseVisualStyleBackColor = true;
+            btnLogout.Click += btnLogout_Click;
+            // 
             // Show_Detail
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(192, 255, 255);
             ClientSize = new Size(1074, 514);
+            Controls.Add(btnLogout);
             Controls.Add(btnQuit);
             Controls.Add(btnDelete);
             Controls.Add(btnUpdate);
@@ -178,5 +190,6 @@
         private Button btnUpdate;
         private Button btnDelete;
         private Button btnQuit;
+        private Button btnLogout;
     }
 }

@@ -18,9 +18,15 @@ namespace BookManagement_LENHATTRUONG
         {
             InitializeComponent();
         }
+
+
+        // reset lai luoi
+        private void FillDataToGrid(List<Book> book) =>
+            dgvBookList.DataSource = book;
+
         private void Show_Detail_Load(object sender, EventArgs e)
         {
-            dgvBookList.DataSource = new BookService().GetBookList();
+            FillDataToGrid(new BookService().GetBookList());
         }
 
         private void btnCreat_Click(object sender, EventArgs e)
@@ -29,7 +35,7 @@ namespace BookManagement_LENHATTRUONG
             dt.Text = "Create Book";
             dt.Set = 1;
             dt.ShowDialog();
-            dgvBookList.DataSource = new BookService().GetBookList();
+            FillDataToGrid(new BookService().GetBookList());
         }
 
         private void btnUpdate_Click(object sender, EventArgs e)
@@ -54,7 +60,7 @@ namespace BookManagement_LENHATTRUONG
             dt.Set = 2;
             dt.EditBook = _book; /// gan _book vao form update.
             dt.ShowDialog();
-            dgvBookList.DataSource = new BookService().GetBookList();
+            FillDataToGrid(new BookService().GetBookList());
 
         }
 
@@ -68,9 +74,11 @@ namespace BookManagement_LENHATTRUONG
         private void btnSearch_Click(object sender, EventArgs e)
         {
             String key = txtBookName.Text.ToLower();
-            List<Book> List = new BookService().GetBookList().Where(x => x.BookName.ToLower().Contains(key)).ToList();
+            List<Book> List = new BookService().GetBookList().Where(x =>
+                            x.BookName.ToLower().Contains(key)).ToList();
 
-            dgvBookList.DataSource = List;
+            //dgvBookList.DataSource = List;
+            FillDataToGrid(List);
         }
 
         private void btnDelete_Click(object sender, EventArgs e)
@@ -86,9 +94,17 @@ namespace BookManagement_LENHATTRUONG
             if (a == DialogResult.Yes)
             {
                 Book _book = (Book)dgvBookList.SelectedRows[0].DataBoundItem;
-                new BookService().DeleteBook( _book );
-                dgvBookList.DataSource = new BookService().GetBookList();
+                new BookService().DeleteBook(_book);
+                FillDataToGrid(new BookService().GetBookList());
             }
+        }
+
+        private void btnLogout_Click(object sender, EventArgs e)
+        {
+            DialogResult a = MessageBox.Show("Ban co muon Dang Xuat khong?", "LogOut", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+
+            if (a == DialogResult.Yes)
+                Close();
         }
     }
 }

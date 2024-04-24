@@ -9,9 +9,9 @@ namespace Repositories
 {
     public class UserAccountRepository
     {
-        public bool Checklogin(string gmail, string password)
-             => new BookManagementDbContext().UserAccounts.ToList()
-            .Any(x => x.Email.Equals(gmail) && x.Password.Equals(password));
+        //public bool Checklogin(string gmail, string password)
+        //     => new BookManagementDbContext().UserAccounts.ToList()
+        //    .Any(x => x.Email.Equals(gmail) && x.Password.Equals(password));
 
         //{
         //    //List<UserAccount> list = new BookManagementDbContext().UserAccounts.ToList();          
@@ -19,6 +19,10 @@ namespace Repositories
 
 
         //}
+
+        public UserAccount? GetAccount(string gmail, string password)
+            => new BookManagementDbContext().UserAccounts.FirstOrDefault(x =>
+                         x.Email.Equals(gmail) && x.Password.Equals(password));
 
     }
 }

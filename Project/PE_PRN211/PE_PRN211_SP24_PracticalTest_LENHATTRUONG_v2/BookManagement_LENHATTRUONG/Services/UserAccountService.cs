@@ -1,4 +1,5 @@
 ﻿using Repositories;
+using Repositories.Entities;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,6 +12,6 @@ namespace Services
     {
         private UserAccountRepository _repository = new();
         public bool IsLoggedIn(string gmail,string password)
-            => _repository.Checklogin(gmail, password);
+            => _repository.GetAccount(gmail, password)!=null;
     }
 }
