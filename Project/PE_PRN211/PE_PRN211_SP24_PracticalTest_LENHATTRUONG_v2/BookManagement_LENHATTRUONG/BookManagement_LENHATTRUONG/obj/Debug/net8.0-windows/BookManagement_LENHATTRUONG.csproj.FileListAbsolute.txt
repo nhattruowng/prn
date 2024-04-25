@@ -69,3 +69,10 @@ D:\FPT\PRN_\Project\PE_PRN211\PE_PRN211_SP24_PracticalTest_LENHATTRUONG_v2\BookM
 D:\FPT\PRN_\Project\PE_PRN211\PE_PRN211_SP24_PracticalTest_LENHATTRUONG_v2\BookManagement_LENHATTRUONG\BookManagement_LENHATTRUONG\bin\Debug\net8.0-windows\runtimes\win-x86\native\WebView2Loader.dll
 D:\FPT\PRN_\Project\PE_PRN211\PE_PRN211_SP24_PracticalTest_LENHATTRUONG_v2\BookManagement_LENHATTRUONG\BookManagement_LENHATTRUONG\bin\Debug\net8.0-windows\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
 D:\FPT\PRN_\Project\PE_PRN211\PE_PRN211_SP24_PracticalTest_LENHATTRUONG_v2\BookManagement_LENHATTRUONG\BookManagement_LENHATTRUONG\obj\Debug\net8.0-windows\BookManagement_LENHATTRUONG.LoginForm.resources
+D:\FPT\PRN_\Project\PE_PRN211\PE_PRN211_SP24_PracticalTest_LENHATTRUONG_v2\BookManagement_LENHATTRUONG\BookManagement_LENHATTRUONG\bin\Debug\net8.0-windows\Microsoft.Extensions.Configuration.dll
+D:\FPT\PRN_\Project\PE_PRN211\PE_PRN211_SP24_PracticalTest_LENHATTRUONG_v2\BookManagement_LENHATTRUONG\BookManagement_LENHATTRUONG\bin\Debug\net8.0-windows\Microsoft.Extensions.Configuration.FileExtensions.dll
+D:\FPT\PRN_\Project\PE_PRN211\PE_PRN211_SP24_PracticalTest_LENHATTRUONG_v2\BookManagement_LENHATTRUONG\BookManagement_LENHATTRUONG\bin\Debug\net8.0-windows\Microsoft.Extensions.Configuration.Json.dll
+D:\FPT\PRN_\Project\PE_PRN211\PE_PRN211_SP24_PracticalTest_LENHATTRUONG_v2\BookManagement_LENHATTRUONG\BookManagement_LENHATTRUONG\bin\Debug\net8.0-windows\Microsoft.Extensions.FileProviders.Abstractions.dll
+D:\FPT\PRN_\Project\PE_PRN211\PE_PRN211_SP24_PracticalTest_LENHATTRUONG_v2\BookManagement_LENHATTRUONG\BookManagement_LENHATTRUONG\bin\Debug\net8.0-windows\Microsoft.Extensions.FileProviders.Physical.dll
+D:\FPT\PRN_\Project\PE_PRN211\PE_PRN211_SP24_PracticalTest_LENHATTRUONG_v2\BookManagement_LENHATTRUONG\BookManagement_LENHATTRUONG\bin\Debug\net8.0-windows\Microsoft.Extensions.FileSystemGlobbing.dll
+D:\FPT\PRN_\Project\PE_PRN211\PE_PRN211_SP24_PracticalTest_LENHATTRUONG_v2\BookManagement_LENHATTRUONG\BookManagement_LENHATTRUONG\bin\Debug\net8.0-windows\appsettings.json

@@ -1,0 +1,92 @@
+================== Các bước làm bài PE. =======================================
+
+1. Dow đề thi dow file note ( có nhiều file trong đó có file đề và file note gi 1 số lệnh" dược copy pass vào proj" và file sql).
+
+ -- tạo mới solution và 3 project
++ tạo trên ổ D 1 forder tên PE " không được lưu project ở thư mục onedrive, google drive, thu mục có tên tiếng việt" để lưu solution.
++ tạo mới 1 project chọn loại Winform project name lấy từ đề thi.
+tên solution lấy từ gợi ý bài thu
+thường tên là tên mình _TRUONGNHATLE
+
+--
+-tạo 2 proj loại class libary:
+
+Repositories
+Services 
+=> cùng dotnet version với nhau.
++ add reference từ Repositories => Services => GUI.
+
++=== COPY LOCAL.
+
+--- tạo mới db từ đề thi
+- mở SQl và chọn open file và mở file.spl chạy để có db
+
+--- add thư viện vào project Repositories để kết nói cơ sở dữ liệu.
+ 6 thư viện cần add. => cần Wifi. khi nào có tích xanh là ok
+
+> Microsoft.EntityFrameworkCore
+> Microsoft.EntityFrameworkCore.Design
+> Microsoft.EntityFrameworkCore.Tools
+> Microsoft.EntityFrameworkCore.SqlServer
+
+Microsoft.Extensions.Configuration 
+Microsoft.Extensions.Configuration.Json 
+
+=> để đồng bộ và tích xanh thư viện
+4 file liên quan đến EntityFrameworkCore
+2 file liên quan json.
+
+
+=> 
+
+=======>  LỆNH QUAN TRỌNG => sử dung NuGet để thêm thêm song Build lại solution.
+                                                     - nếu quên build sẽ 0d.
+
+
+--- tạo class map với table, nhóm class thuộc thư mục Entities.
+		tạo tự động từ dòng lệnh trong môi trường powershell của project Repositories
+câu lệnh tạo tự động copy từ đề thi " CHỈNH SỬA PASSWORD"  khớp với máy.
+	phải chuộc trên project Repositories chọn Open Terminal.
+mở file note tìm lệnh => SỬA PASSWORK
+
+		dotnet ef dbcontext scaffold "Server=(local);uid=sa;pwd=12345;database= BookManagementDb;TrustServerCertificate=True" Microsoft.EntityFrameworkCore.SqlServer --output-dir Models
+
+  			=> file dbContext được đưa vào forder Models
+=====> nhớ sửa password.
+
+--- tạo file.json lưu thông số cơ sở dữ liệu ( đề thi file note cho sẵng thông số và kĩ thuật đọc file json => copy paste)
+
+1. thêm file.json vào project GUI đặt tên là appsettings.json "COPY TO OUTPUT DIRECTORY chọn COPY IF NEWER" => 	QUAN TRONG
+
+2. xóa phần connect trong file Dbcontext 
+
+3 copy phần đoc file json trong file note dán vào class dbcontext => nhớ dấu CÁCH KHÔNG được có dấy CÁCH
+							và gọi hàm đọc nội dung đó ở vị trí chuỗi context vừa đọc.
+
+
+=====> check xem coi hàm đọc json chỗ 2 tag có cách hay k nếu có cách thì XÓA CÁCH.
+
+=================================
+  		Cấu hình xong
+==================================
+
+desagn 3 form
++ Login
++Main
++ Detail
+==> đủ ô nhập nút bắm và ô search.
+
++Desagn các class ở 2 project repo và services theo cập
+
+	COMBOBOX.	
+
+
+
+
+=======> kiểm tra code trước khi nợp bài.
+		1. Build project đảm bảo k erro.
+		2. giảm kích thước solution từ 20mb còn khoản 5mb tùy máy tùy version
+			- build => clear solution => giảm kích thước solution
+		3. tất vs studio 
+				ra ngoài nén thư mục PE thành Pe.zip
+		4.copy nó vào thư mục Submit 
