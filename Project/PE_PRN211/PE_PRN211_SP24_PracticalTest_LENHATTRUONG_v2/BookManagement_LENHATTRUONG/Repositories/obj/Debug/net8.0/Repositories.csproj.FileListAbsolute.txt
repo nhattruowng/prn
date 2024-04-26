@@ -1,6 +1,8 @@
 D:\FPT\PRN_\Project\PE_PRN211\PE_PRN211_SP24_PracticalTest_LENHATTRUONG_v2\BookManagement_LENHATTRUONG\Repositories\bin\Debug\net8.0\Repositories.deps.json
+D:\FPT\PRN_\Project\PE_PRN211\PE_PRN211_SP24_PracticalTest_LENHATTRUONG_v2\BookManagement_LENHATTRUONG\Repositories\bin\Debug\net8.0\Repositories.runtimeconfig.json
 D:\FPT\PRN_\Project\PE_PRN211\PE_PRN211_SP24_PracticalTest_LENHATTRUONG_v2\BookManagement_LENHATTRUONG\Repositories\bin\Debug\net8.0\Repositories.dll
 D:\FPT\PRN_\Project\PE_PRN211\PE_PRN211_SP24_PracticalTest_LENHATTRUONG_v2\BookManagement_LENHATTRUONG\Repositories\bin\Debug\net8.0\Repositories.pdb
+D:\FPT\PRN_\Project\PE_PRN211\PE_PRN211_SP24_PracticalTest_LENHATTRUONG_v2\BookManagement_LENHATTRUONG\Repositories\obj\Debug\net8.0\Repositories.csproj.AssemblyReference.cache
 D:\FPT\PRN_\Project\PE_PRN211\PE_PRN211_SP24_PracticalTest_LENHATTRUONG_v2\BookManagement_LENHATTRUONG\Repositories\obj\Debug\net8.0\Repositories.GeneratedMSBuildEditorConfig.editorconfig
 D:\FPT\PRN_\Project\PE_PRN211\PE_PRN211_SP24_PracticalTest_LENHATTRUONG_v2\BookManagement_LENHATTRUONG\Repositories\obj\Debug\net8.0\Repositories.AssemblyInfoInputs.cache
 D:\FPT\PRN_\Project\PE_PRN211\PE_PRN211_SP24_PracticalTest_LENHATTRUONG_v2\BookManagement_LENHATTRUONG\Repositories\obj\Debug\net8.0\Repositories.AssemblyInfo.cs
@@ -9,7 +11,5 @@ D:\FPT\PRN_\Project\PE_PRN211\PE_PRN211_SP24_PracticalTest_LENHATTRUONG_v2\BookM
 D:\FPT\PRN_\Project\PE_PRN211\PE_PRN211_SP24_PracticalTest_LENHATTRUONG_v2\BookManagement_LENHATTRUONG\Repositories\obj\Debug\net8.0\Repositories.dll
 D:\FPT\PRN_\Project\PE_PRN211\PE_PRN211_SP24_PracticalTest_LENHATTRUONG_v2\BookManagement_LENHATTRUONG\Repositories\obj\Debug\net8.0\refint\Repositories.dll
 D:\FPT\PRN_\Project\PE_PRN211\PE_PRN211_SP24_PracticalTest_LENHATTRUONG_v2\BookManagement_LENHATTRUONG\Repositories\obj\Debug\net8.0\Repositories.pdb
-D:\FPT\PRN_\Project\PE_PRN211\PE_PRN211_SP24_PracticalTest_LENHATTRUONG_v2\BookManagement_LENHATTRUONG\Repositories\obj\Debug\net8.0\ref\Repositories.dll
-D:\FPT\PRN_\Project\PE_PRN211\PE_PRN211_SP24_PracticalTest_LENHATTRUONG_v2\BookManagement_LENHATTRUONG\Repositories\bin\Debug\net8.0\Repositories.runtimeconfig.json
-D:\FPT\PRN_\Project\PE_PRN211\PE_PRN211_SP24_PracticalTest_LENHATTRUONG_v2\BookManagement_LENHATTRUONG\Repositories\obj\Debug\net8.0\Repositories.csproj.AssemblyReference.cache
 D:\FPT\PRN_\Project\PE_PRN211\PE_PRN211_SP24_PracticalTest_LENHATTRUONG_v2\BookManagement_LENHATTRUONG\Repositories\obj\Debug\net8.0\Repositories.genruntimeconfig.cache
+D:\FPT\PRN_\Project\PE_PRN211\PE_PRN211_SP24_PracticalTest_LENHATTRUONG_v2\BookManagement_LENHATTRUONG\Repositories\obj\Debug\net8.0\ref\Repositories.dll

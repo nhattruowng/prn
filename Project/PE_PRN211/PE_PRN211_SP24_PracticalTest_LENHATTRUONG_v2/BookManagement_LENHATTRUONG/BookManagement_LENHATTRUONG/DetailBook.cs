@@ -46,8 +46,7 @@ namespace BookManagement_LENHATTRUONG
                 txtPrice.Text = EditBook.Price.ToString();
                 txtDescription.Text = EditBook.Description;
                 dtpPub.Value = EditBook.PublicationDate;
-                numQuantity.Value = EditBook.Quantity;
-                cboBookCategory.SelectedValue = EditBook.BookCategoryId;   
+                numQuantity.Value = EditBook.Quantity; 
             }
         }
 
