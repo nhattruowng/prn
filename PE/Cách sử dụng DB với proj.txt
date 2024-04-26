@@ -1,0 +1,5 @@
+Cách sử dụng db trên Solution 
+Chạy file sql trên MS sql server để có được csdl.
+Tìm đến file Appsettings.json Trong thư mục có chứa tên Sinh Viên
+thay đổi Password và user phù hợp với thiết bị 
+build lại proj
